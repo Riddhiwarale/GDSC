@@ -5,6 +5,8 @@ import NextArrow from "./NextArrow";
 import PrevArrow from "./PreviousArrow";
 import Slides from "./Slides";
 import Header from "./Sliderheader";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const SliderFunction = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const settings = {
@@ -37,7 +39,7 @@ const SliderFunction = () => {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 643,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
