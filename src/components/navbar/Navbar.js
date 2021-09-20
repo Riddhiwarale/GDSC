@@ -91,7 +91,9 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <div className="img">{/* <img src={google3} alt="" /> */}</div>
+          {/* <div className="img">
+            <img src={google3} alt="" />
+          </div> */}
         </div>
       </body>
     </div>

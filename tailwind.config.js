@@ -54,15 +54,17 @@ const colors = {
   headerColor: {
     heading: "#EA4335",
   },
-  slickBackground: {
-    color: "#F3F8FF",
-  },
+  slickBackground: "#F3F8FF",
   underlineColor: {
     color: "#4285f4",
   },
   paracolor: "#555",
   topcolor: "#333",
   btncolor: "#3060FF",
+  redc: "#EA4335",
+  bluec: "#4285F4",
+  greenc: "#34A853",
+  yellowc: "#FBBC05",
 };
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
@@ -80,6 +82,7 @@ module.exports = {
       height: {
         240: "240px",
         135: "135px",
+        landing: "171vh",
       },
       width: {
         "1/7": "14.2857143%",
@@ -89,6 +92,11 @@ module.exports = {
         "5/7": "71.4285714%",
         "6/7": "85.7142857%",
         210: "210px",
+        landing: "100vw",
+      },
+      fontSize: {
+        exl: "50px",
+        exsl: "40px",
       },
     },
   },

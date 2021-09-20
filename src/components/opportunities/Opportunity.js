@@ -6,16 +6,15 @@ function Opportunity() {
   return (
     <>
       <div className="flex flex-col bg-white"></div>
-      <div className="flex flex-wrap w-full mb-4 p-4 ">
-        <div className="w-full mb-6 lg:mb-0">
-          <h1 className="text-4xl font-medium title-font mb-2 text-red-500">
+      <div className="flex flex-wrap w-full  p-4 bg-slickBackground">
+        <div className="w-full lg:mb-0">
+          <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
             Opportunities
           </h1>
-          <div className="h-1 w-60 bg-blue-500 rounded" />
         </div>
       </div>
-      <div className="flex overflow-x-scroll pb-10 hide-scroll-bar">
-        <div className="flex flex-nowrap lg:ml-20 md:ml-20 ml-0">
+      <div className="flex overflow-x-scroll pb-10 hide-scroll-bar bg-slickBackground">
+        <div className="flex flex-nowrap lg:ml-10 md:ml-10 ml-0">
           {opportunities.map((opp) => (
             <Opportunities
               key={opp.id}

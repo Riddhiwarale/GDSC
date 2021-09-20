@@ -17,7 +17,7 @@ const SliderFunction = () => {
     centerMode: true,
     swipeToSlide: true,
     centerPadding: 0,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 5000,
     responsive: [
       {

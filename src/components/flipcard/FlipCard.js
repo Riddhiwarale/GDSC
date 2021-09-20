@@ -10,10 +10,10 @@ function FlipCard() {
   const [cards, setCards] = useState(CONTENT);
   return (
     <>
-      <div className="bg-slickBackground-color m-auto p-4 mt-20">
+      <div className="bg-slickBackground m-auto p-4 mt-20">
         <div className="header">
-          <h1 className="text-center font-normal text-topcolor">
-            Our <span className="font-bold">Ideas</span>
+          <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
+            Our <span className="font-bold ">Ideas</span>
           </h1>
           <p className="w-full p-3 m-auto text-paracolor text-center text-sm">
             DSC is collaborative event of 100+ DSCs from India, who have joined

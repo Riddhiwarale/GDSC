@@ -15,8 +15,10 @@ const Slides = ({ name, status, idx, imageIndex, image }) => {
               ? "bg-cover h-96 sm:h-60 md:h-52 xl:h-72 w-full rounded-t-md opacity-100"
               : "bg-cover h-96 sm:h-60 md:h-52 xl:h-72 w-full rounded-t-md opacity-50 bg-blue-400"
           }
-          style={{ backgroundImage: `url(${image})` }}
-        ></div>
+          // style={{ backgroundImage: `url(${image})` }}
+        >
+          <img src={image} alt={name} className="h-full  w-full" />
+        </div>
         <div
           class={
             idx === imageIndex
