@@ -55,18 +55,42 @@ const colors = {
     heading: "#EA4335",
   },
   slickBackground: {
-    color: "#E3F2FD",
+    color: "#F3F8FF",
   },
   underlineColor: {
     color: "#4285f4",
   },
+  paracolor: "#555",
+  topcolor: "#333",
+  btncolor: "#3060FF",
 };
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors,
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+        // Simple 8 row grid
+        8: "repeat(auto-fill, minmax(200px, 1fr))",
+      },
+      maxWidth: {
+        custom: "900px",
+      },
+      height: {
+        240: "240px",
+        135: "135px",
+      },
+      width: {
+        "1/7": "14.2857143%",
+        "2/7": "28.5714286%",
+        "3/7": "42.8571429%",
+        "4/7": "57.1428571%",
+        "5/7": "71.4285714%",
+        "6/7": "85.7142857%",
+        210: "210px",
+      },
+    },
   },
   variants: {
     extend: {},
