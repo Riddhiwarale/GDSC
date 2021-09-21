@@ -4,6 +4,8 @@ import Navbar from "./components/navbar/Navbar";
 import Flipcard from "./components/flipcard/FlipCard";
 import Opportunities from "./components/opportunities/Opportunity";
 import Landing from "./components/landing/Landing";
+import Partners from "./components/partners/Partners";
+
 function App() {
   return (
     <>
@@ -12,6 +14,8 @@ function App() {
       <Flipcard />
       {/* <Slider /> */}
       <Opportunities />
+
+      <Partners />
     </>
   );
 }
