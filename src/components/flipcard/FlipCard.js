@@ -10,7 +10,7 @@ function FlipCard() {
   const [cards, setCards] = useState(CONTENT);
   return (
     <>
-      <div className="bg-slickBackground m-auto p-4 mt-20">
+      <div className="bg-slickBackground m-auto p-4">
         <div className="header">
           <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
             Our <span className="font-bold ">Ideas</span>

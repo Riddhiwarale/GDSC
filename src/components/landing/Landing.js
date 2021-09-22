@@ -2,9 +2,9 @@ import React from "react";
 import landingimage from "../../assets/images/LandingImages/landingday.png";
 const Landing = () => {
   return (
-    <div className="flex flex-col-reverse xl:flex-row lg:flex-row w-full">
-      <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 mt-5">
-        <div className="w-full mb-10 xl:pl-20 lg:pl-10 pl-5">
+    <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full">
+      <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-20 sm:mt-10 mt-5">
+        <div className="w-full mb-10 xl:pl-20 lg:pl-10 md:pl-10 pl-5">
           <div>
             <p className="font-bold text-sm xl:text-lg lg:text-lg pb-1 xl:pb-2 lg:pb-2 pl-1">
               Our Aim
@@ -41,7 +41,7 @@ const Landing = () => {
               name=""
               placeholder="Join us with your email address"
               id=""
-              className="xl:w-2/4 w-full lg:w-2/4 font-bold ml-2 text-xs xl:text-lg focus:outline-none"
+              className="xl:w-2/4 w-full lg:w-2/4 p-2 font-bold ml-2 text-xs xl:text-lg focus:outline-none"
             />
             <button className="font-bold xl:p-2 lg:p-2 w-32 xl:w-32 xl:rounded-lg lg:rounded-lg rounded-md bg-blue-500 text-white xl:text-md lg:text-md text-sm cursor-pointer">
               Join Now
@@ -49,7 +49,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="xl:w-2/4 w-full">
+      <div className="xl:w-2/4 w-full md:pt-10 sm:pt-5">
         <img src={landingimage} alt="" />
       </div>
     </div>
