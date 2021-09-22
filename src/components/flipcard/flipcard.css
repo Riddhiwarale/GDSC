@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --background: var(black);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: #fff;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 0 4px 1px rgba(150, 150, 150, 0.3);
+  background: white;
+  border-radius: 20px;
+  height: 230px;
+  width: 210px;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateY(var(--rotate-Y, 0));
+  transition: 600ms;
+  margin: auto;
+}
+.card:hover {
+  box-shadow: 0 0 5px 1px rgba(150, 150, 150, 0.4);
+}
+.card.flip {
+  --rotate-Y: 180deg;
+}
+
+.card .frontside,
+.card .backside {
+  position: absolute;
+  padding: 1em;
+  backface-visibility: hidden;
+  text-align: center;
+  transform: rotateX(0deg);
+}
+
+.card .backside {
+  transform: rotateY(180deg);
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
