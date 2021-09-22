@@ -1,7 +1,7 @@
 import React from "react";
 const Slides = ({ name, status, idx, imageIndex, image }) => {
   return (
-    <div className="mt-10 mb-10">
+    <div className="xl:mt-10 mb-10 xl:w-60 w-full">
       <div
         className={
           idx === imageIndex
@@ -12,12 +12,12 @@ const Slides = ({ name, status, idx, imageIndex, image }) => {
         <div
           className={
             idx === imageIndex
-              ? "bg-cover h-96 sm:h-60 md:h-52 xl:h-72 w-full rounded-t-md opacity-100"
-              : "bg-cover h-96 sm:h-60 md:h-52 xl:h-72 w-full rounded-t-md opacity-50 bg-blue-400"
+              ? "bg-cover h-70 sm:h-60 md:h-52 xl:h-56 w-full rounded-t-md opacity-100"
+              : "bg-cover h-70 sm:h-60 md:h-52 xl:h-56 w-full rounded-t-md opacity-50 bg-blue-400"
           }
           // style={{ backgroundImage: `url(${image})` }}
         >
-          <img src={image} alt={name} className="h-full  w-full" />
+          <img src={image} alt={name} className="h-full w-full" />
         </div>
         <div
           class={
@@ -26,8 +26,24 @@ const Slides = ({ name, status, idx, imageIndex, image }) => {
               : "px-6 py-4"
           }
         >
-          <div class="font-bold text-xl mb-2 text-center">{name}</div>
-          <p class="text-gray-700 text-base text-center">{status}</p>
+          <div
+            className={
+              idx === imageIndex
+                ? "font-bold text-xl mb-2 text-center text-white"
+                : "font-bold text-xl mb-2 text-center"
+            }
+          >
+            {name}
+          </div>
+          <p
+            className={
+              idx === imageIndex
+                ? "text-white text-base text-center"
+                : "text-gray-700 text-base text-center"
+            }
+          >
+            {status}
+          </p>
         </div>
       </div>
     </div>

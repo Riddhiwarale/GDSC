@@ -23,7 +23,7 @@ body {
   background: white;
   border-radius: 20px;
   height: 230px;
-  width: 210px;
+  width: 230px;
   transform-style: preserve-3d;
   transform: perspective(1000px) rotateY(var(--rotate-Y, 0));
   transition: 600ms;

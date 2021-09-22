@@ -41,6 +41,7 @@ const SliderFunction = () => {
       {
         breakpoint: 643,
         settings: {
+          dots: false,
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
@@ -52,9 +53,9 @@ const SliderFunction = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (
-    <>
+    <div className="w-full container">
       <Header />
-      <div className="bg-slickBackground-color mt-10 px-5 lg:px-14 md:px-16 sm:px-5">
+      <div className="bg-slickBackground-color  px-5 lg:px-14 md:px-16 sm:px-5">
         <Slider {...settings}>
           {information.map((info, idx) => (
             <Slides
@@ -67,7 +68,7 @@ const SliderFunction = () => {
           ))}
         </Slider>
       </div>
-    </>
+    </div>
   );
 };
 

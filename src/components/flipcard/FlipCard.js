@@ -9,8 +9,8 @@ import build from "../../assets/images/OurIdeasImages/build.png";
 function FlipCard() {
   const [cards, setCards] = useState(CONTENT);
   return (
-    <>
-      <div className="bg-slickBackground m-auto p-4">
+    <div className="bg-slickBackground m-auto p-4">
+      <div className="container">
         <div className="header">
           <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
             Our <span className="font-bold ">Ideas</span>
@@ -22,11 +22,11 @@ function FlipCard() {
             <br /> under the same roof.
           </p>
         </div>
-        <div className="max-w-custom m-auto mt-0.5 mb-0.5">
+        <div className="max-full  mt-0.5 mb-0.5">
           <FlipCardList cards={cards} />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 const CONTENT = [
