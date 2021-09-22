@@ -96,18 +96,13 @@ module.exports = {
         // landing: "100vw",
       },
       fontSize: {
-        gfont: "19px",
-        join: "10px",
-        exl: "45px",
+        exl: "50px",
         exsl: "40px",
       },
     },
   },
   variants: {
-    extend: {},
-  },
-  corePlugins: {
-    container: false,
+    extend: { transform: ["hover", "focus"] },
   },
   plugins: [],
 };

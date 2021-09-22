@@ -1,99 +1,99 @@
-import Image1 from "../images/TeamImages/Anoushka_Shinde-removebg-preview.png";
-import Image2 from "../images/TeamImages/ATHARVA_KESHATTIWAR-removebg-preview.png";
-import Image3 from "../images/TeamImages/Deep_Shahane-removebg-preview.png";
-import Image4 from "../images/TeamImages/Dishant_Kumar-removebg-preview.png";
-import Image5 from "../images/TeamImages/IMG_20200804_230023-removebg-preview.png";
-import Image6 from "../images/TeamImages/IMG_20210820_214345-removebg-preview.png";
-import Image7 from "../images/TeamImages/IMG-20210715-WA0077-removebg-preview.png";
-import Image8 from "../images/TeamImages/IMG-20210807-WA0037-removebg-preview.png";
-import Image9 from "../images/TeamImages/Nimish_Samant.png";
-import Image10 from "../images/TeamImages/p2-removebg-preview.png";
-import Image11 from "../images/TeamImages/Parth_Yadav.png";
-import Image12 from "../images/TeamImages/Pranav_Profile_Picture_1080-removebg-preview.png";
-import Image13 from "../images/TeamImages/Prof._Sachin_Deshpande-removebg-preview.png";
-import Image14 from "../images/TeamImages/Riya_Ingale-removebg-preview.png";
-import Image15 from "../images/TeamImages/Sonali_Bedade-removebg-preview.png";
-import Image16 from "../images/TeamImages/Srishti_sharma-removebg-preview.png";
+import Pranav from "../images/TeamImages/PranavHead.png";
+import Sachin from "../images/TeamImages/SachinSir.png";
+import Sonali from "../images/TeamImages/Sonali.png";
+import Srishti from "../images/TeamImages/Srishti.png";
+import Parth from "../images/TeamImages/Parth.png";
+import Riya from "../images/TeamImages/Riya.png";
+import Atharva from "../images/TeamImages/Atharva.png";
+import Chaitanya from "../images/TeamImages/Chaitanya.jpg";
+import Anoushka from "../images/TeamImages/Anoushka.jpg";
+import Akshaj from "../images/TeamImages/Akshaj.png";
+import Nimish from "../images/TeamImages/Nimish.png";
+import Dishant from "../images/TeamImages/Dishant.png";
+import Riddhi from "../images/TeamImages/Riddhi.jpg";
+import Heramba from "../images/TeamImages/Heramba.jpg";
+import Kartik from "../images/TeamImages/Kartik.jpg";
+import Deep from "../images/TeamImages/Deep.png";
 
 export const information = [
   {
-    name: "1",
-    status: "status",
-    image: `${Image1}`,
+    name: "Pranav Khatal",
+    status: "Convener, Google DSC VIT",
+    image: `${Pranav}`,
   },
   {
-    name: "2",
-    status: "status",
-    image: `${Image2}`,
+    name: "Prof. Sachin Deshpande",
+    status: "Google DSC, Club Lead",
+    image: `${Sachin}`,
   },
   {
-    name: "3",
-    status: "status",
-    image: `${Image3}`,
+    name: "Sonali Bedade",
+    status: "Public Relation (Lead)",
+    image: `${Sonali}`,
   },
   {
-    name: "4",
-    status: "status",
-    image: `${Image4}`,
+    name: "Sristhi Sharma",
+    status: "Public Relation (Co-Lead)",
+    image: `${Srishti}`,
   },
   {
-    name: "5",
-    status: "status",
-    image: `${Image5}`,
+    name: "Parth Yadav",
+    status: "Events (Lead)",
+    image: `${Parth}`,
   },
   {
-    name: "6",
-    status: "status",
-    image: `${Image6}`,
+    name: "Riya Ingale",
+    status: "Events (Co-Lead)",
+    image: `${Riya}`,
   },
   {
-    name: "7",
-    status: "status",
-    image: `${Image7}`,
+    name: "Atharva Keshattlwar",
+    status: "Design (Lead)",
+    image: `${Atharva}`,
   },
   {
-    name: "8",
-    status: "status",
-    image: `${Image8}`,
+    name: "Chaitanya Sawsakde",
+    status: "Design (Co-Lead)",
+    image: `${Chaitanya}`,
   },
   {
-    name: "9",
-    status: "status",
-    image: `${Image9}`,
+    name: "Anoushka Shinde",
+    status: "Sponsors & Marketing (Lead)",
+    image: `${Anoushka}`,
   },
   {
-    name: "10",
-    status: "status",
-    image: `${Image10}`,
+    name: "Akshaj Salvi",
+    status: "Sponsors & Marketing (Co-Lead)",
+    image: `${Akshaj}`,
   },
   {
-    name: "11",
-    status: "status",
-    image: `${Image11}`,
+    name: "Nimish Samant",
+    status: "Technical (Lead)",
+    image: `${Nimish}`,
   },
   {
-    name: "12",
-    status: "status",
-    image: `${Image12}`,
+    name: "Dishant Kumar",
+    status: "Technical (C0-Lead)",
+    image: `${Dishant}`,
   },
   {
-    name: "13",
-    status: "status",
-    image: `${Image13}`,
+    name: "Riddhi Warale",
+    status: "Web Development (Lead)",
+    image: `${Riddhi}`,
   },
   {
-    name: "14",
-    status: "status",
-    image: `${Image14}`,
+    name: "Heramba Limaye",
+    status: "Web Development (Co-Lead)",
+    image: `${Heramba}`,
   },
   {
-    name: "15",
-    status: "status",
-    image: `${Image15}`,
+    name: "kartik Bodhankar",
+    status: "Android Developer (Lead)",
+    image: `${Kartik}`,
   },
   {
-    name: "16",
-    status: "status",
-    image: `${Image16}`,
+    name: "Deep Shahane",
+    status: "Android Developer (Co-Lead)",
+    image: `${Deep}`,
   },
 ];
