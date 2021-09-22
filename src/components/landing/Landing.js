@@ -2,7 +2,7 @@ import React from "react";
 import landingimage from "../../assets/images/LandingImages/landingday.png";
 const Landing = () => {
   return (
-    <div className="flex flex-col-reverse xl:flex-row lg:flex-row w-landing">
+    <div className="flex flex-col-reverse xl:flex-row lg:flex-row w-full">
       <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 mt-5">
         <div className="w-full mb-10 xl:pl-20 lg:pl-10 pl-5">
           <div>

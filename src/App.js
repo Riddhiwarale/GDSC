@@ -14,7 +14,6 @@ function App() {
       <Flipcard />
       {/* <Slider /> */}
       <Opportunities />
-
       <Partners />
     </>
   );

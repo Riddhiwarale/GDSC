@@ -92,7 +92,7 @@ module.exports = {
         "5/7": "71.4285714%",
         "6/7": "85.7142857%",
         210: "210px",
-        landing: "100vw",
+        // landing: "100vw",
       },
       fontSize: {
         exl: "50px",
