@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 const SliderFunction = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 5,
@@ -21,9 +21,9 @@ const SliderFunction = () => {
     autoplaySpeed: 5000,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1050,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -39,7 +39,7 @@ const SliderFunction = () => {
         },
       },
       {
-        breakpoint: 643,
+        breakpoint: 638,
         settings: {
           dots: false,
           slidesToShow: 1,
@@ -55,7 +55,7 @@ const SliderFunction = () => {
   return (
     <div className="w-full container">
       <Header />
-      <div className="bg-slickBackground-color  px-5 lg:px-14 md:px-16 sm:px-5">
+      <div className="bg-slickBackground-color">
         <Slider {...settings}>
           {information.map((info, idx) => (
             <Slides

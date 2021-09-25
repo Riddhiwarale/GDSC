@@ -1,19 +1,19 @@
 import React from "react";
 const Slides = ({ name, status, idx, imageIndex, image }) => {
   return (
-    <div className="xl:mt-10 mb-10 xl:w-60 w-full">
+    <div className="xl:mt-10 mb-10 w-full p-2 xl:p-0 lg:p-0 md:p-0 sm:p-0">
       <div
         className={
           idx === imageIndex
-            ? "transform scale-75 opacity-100 shadow-lg bg-white rounded-md"
-            : "transform scale-50 transition duration-300 opacity-100 rounded-md shadow-lg  bg-white"
+            ? "transform scale-90  opacity-100 shadow-2xl bg-white rounded-md"
+            : "transform scale-75  transition duration-300 opacity-100 rounded-md shadow-lg  bg-white"
         }
       >
         <div
           className={
             idx === imageIndex
-              ? "bg-cover h-70 sm:h-60 md:h-52 xl:h-56 w-full rounded-t-md opacity-100"
-              : "bg-cover h-70 sm:h-60 md:h-52 xl:h-56 w-full rounded-t-md opacity-50 bg-blue-400"
+              ? "bg-cover h-70 sm:h-48 md:h-52 xl:h-64 w-full rounded-t-md opacity-100"
+              : "bg-cover h-70 sm:h-48 md:h-52 xl:h-64 w-full rounded-t-md opacity-50 bg-blue-400"
           }
           // style={{ backgroundImage: `url(${image})` }}
         >
@@ -29,8 +29,8 @@ const Slides = ({ name, status, idx, imageIndex, image }) => {
           <div
             className={
               idx === imageIndex
-                ? "font-bold text-xl mb-2 text-center text-white"
-                : "font-bold text-xl mb-2 text-center"
+                ? "font-bold text-lg sm:text-lg md:text-md lg:text-lg xl:text-lg mb-2 text-center text-white"
+                : "font-bold text-lg sm:text-lg md:text-md lg:text-lg xl:text-lg  mb-2 text-center"
             }
           >
             {name}
@@ -38,8 +38,8 @@ const Slides = ({ name, status, idx, imageIndex, image }) => {
           <p
             className={
               idx === imageIndex
-                ? "text-white text-base text-center"
-                : "text-gray-700 text-base text-center"
+                ? "text-white text-md sm:text-sm md:text-sm lg:text-sm xl:text-sm text-center"
+                : "text-gray-700 text-md sm:text-sm md:text-sm lg:text-sm xl:text-sm text-center"
             }
           >
             {status}
