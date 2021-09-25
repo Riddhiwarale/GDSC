@@ -17,7 +17,7 @@ const Landing = () => {
                     <span className="text-redc">Converting</span>
                     <span className="ml-1 text-greenc">Ideas</span>
                     <span className="ml-1 text-yellowc">into</span>
-                    <span className="ml-1 text-bluec">Reality !</span>
+                    <span className="ml-1 text-bluec">Reality!</span>
                   </p>
                 </div>
                 <div className="w-full mt-3 mb-3 xl:text-lg lg:text-lg sm:text-xs text-xs pl-1">
