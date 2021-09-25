@@ -1,0 +1,11 @@
+.swipeImage{
+    height: 300px;
+    width: 320px;
+    margin: auto;
+}
+@media screen and (max-width:650px){
+    .swipeImage{
+        height: 240px;
+        width: 260px;
+    }
+}
