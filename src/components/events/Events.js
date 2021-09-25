@@ -4,6 +4,7 @@ import Slider from 'react-slick'
 import events from '../../assets/images/EventsImages/events.jpeg'
 import events3 from '../../assets/images/EventsImages/events3.jpeg'
 import events4 from '../../assets/images/EventsImages/events4.jpeg'
+import './events.css'
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -38,9 +39,9 @@ export default class Events extends Component {
             // autoplaySpeed:3000,
             cssEase:'linear',
             dots: true,
-            speed: 1000,
+            speed: 500,
             slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             initialSlide:0,
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
@@ -49,7 +50,7 @@ export default class Events extends Component {
                 breakpoint: 1024,
                 settings: {
                   slidesToShow: 2,
-                  slidesToScroll: 2,
+                  slidesToScroll: 1,
                   infinite: true,
                   dots: true
                 }
@@ -83,33 +84,33 @@ export default class Events extends Component {
                 
                 <div className='xl:px-4  xl:px-2  xl:pt-4 pb-10 sm:px-14 '>
                     {/* for hover effect add -- transform transition ease-linear delay-150 hover:scale-105 */}
-                    <figure className='overflow-hidden  rounded-lg shadow-xl'>
-                        <img className='swipeImage' src={events3}/>
+                    <figure className='p-2  transform transition ease-linear delay-150 hover:scale-105'>
+                        <img className='swipeImage shadow-xl  rounded-lg' src={events3}/>
                     </figure>
                 </div> 
                 <div className=' xl:px-4  xl:px-2  xl:pt-4 pb-10 sm:px-14'>
-                    <figure className='overflow-hidden  rounded-lg shadow-xl'>
-                        <img className='swipeImage' src={events}/>
+                    <figure className='p-2  transform transition ease-linear delay-150 hover:scale-105'>
+                        <img className='swipeImage shadow-xl  rounded-lg' src={events}/>
                     </figure>
                 </div>
                 <div className=' xl:px-4  xl:px-2  xl:pt-4 pb-10 sm:px-14'>
-                    <figure className='overflow-hidden  rounded-lg shadow-xl'>
-                        <img className='swipeImage' src={events4}/>
+                    <figure className='p-2  transform transition ease-linear delay-150 hover:scale-105'>
+                        <img className='swipeImage shadow-xl  rounded-lg' src={events4}/>
                     </figure>
                 </div>
                 <div className=' xl:px-4  xl:px-2  xl:pt-4 pb-10 sm:px-14'>
-                    <figure className='overflow-hidden  rounded-lg shadow-xl'>
-                        <img className='swipeImage' src={events3}/>
+                    <figure className='p-2  transform transition ease-linear delay-150 hover:scale-105'>
+                        <img className='swipeImage shadow-xl  rounded-lg' src={events3}/>
                     </figure>
                 </div>
                 <div className=' xl:px-4  xl:px-2  xl:pt-4 pb-10 sm:px-14'>
-                    <figure className='overflow-hidden  rounded-lg shadow-xl'>
-                        <img className='swipeImage' src={events}/>
+                    <figure className='p-2  transform transition ease-linear delay-150 hover:scale-105'>
+                        <img className='swipeImage shadow-xl  rounded-lg' src={events}/>
                     </figure>
                 </div>
                 <div className=' xl:px-4  xl:px-2  xl:pt-4 pb-10 sm:px-14'>
-                    <figure className='overflow-hidden  rounded-lg shadow-xl'>
-                        <img className='swipeImage' src={events4}/>
+                    <figure className='p-2  transform transition ease-linear delay-150 hover:scale-105'>
+                        <img className='swipeImage shadow-xl  rounded-lg' src={events4}/>
                     </figure>
                 </div>
                 </Slider>
