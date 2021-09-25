@@ -71,8 +71,18 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      sm: "640px",
+      md: "	768px",
+      lg: "	1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     colors,
     extend: {
+      // screens: {
+      //   xs: "400px",
+      // },
       gridTemplateRows: {
         // Simple 8 row grid
         8: "repeat(auto-fill, minmax(200px, 1fr))",
@@ -98,8 +108,10 @@ module.exports = {
       fontSize: {
         gfont: "19px",
         join: "10px",
-        exl: "45px",
-        exsl: "40px",
+        exl: "40px",
+        exsl: "30px",
+        mfont: "19px",
+        lfont: "20px",
       },
     },
   },

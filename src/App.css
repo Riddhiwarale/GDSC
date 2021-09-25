@@ -13,9 +13,12 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .container {
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (min-width: 768px) {
