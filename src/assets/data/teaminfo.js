@@ -28,12 +28,12 @@ export const information = [
   },
   {
     name: "Sonali Bedade",
-    status: "Public Relation (Lead)",
+    status: "Pub. Relation (Lead)",
     image: `${Sonali}`,
   },
   {
     name: "Sristhi Sharma",
-    status: "Public Relation(Co-Lead)",
+    status: "Pub. Relation(Co-Lead)",
     image: `${Srishti}`,
   },
   {
@@ -47,12 +47,12 @@ export const information = [
     image: `${Riya}`,
   },
   {
-    name: "Atharva Keshattlwar",
+    name: "Atharva ",
     status: "Design (Lead)",
     image: `${Atharva}`,
   },
   {
-    name: "Chaitanya Sawsakde",
+    name: "Chaitanya ",
     status: "Design (Co-Lead)",
     image: `${Chaitanya}`,
   },

@@ -39,7 +39,7 @@ const SliderFunction = () => {
         },
       },
       {
-        breakpoint: 638,
+        breakpoint: 500,
         settings: {
           dots: false,
           slidesToShow: 1,
@@ -53,7 +53,7 @@ const SliderFunction = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (
-    <div className="w-full container">
+    <div className="w-full">
       <Header />
       <div className="bg-slickBackground-color">
         <Slider {...settings}>
