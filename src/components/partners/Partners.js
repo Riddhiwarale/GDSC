@@ -16,7 +16,7 @@ const breakPoints = [
 
 function Partners(props) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col m-2">
       <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl mt-8 pt-8">
         Our <span className="font-bold ">Product Partners</span>
       </h1>
@@ -46,7 +46,6 @@ function Partners(props) {
         </Carousel>
       </div>
 
-      <hr className="m-6" />
     </div>
   );
 }

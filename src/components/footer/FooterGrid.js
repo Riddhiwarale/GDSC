@@ -30,7 +30,7 @@ const SocialLink = styled.a`
 const FooterGrid = () => {
   return (
     <BigContainer>
-      <Container className="border-t-2 border-b-2 pb-12 border-gray-300">
+      <Container className=" border-b-2 pb-12 border-gray-300">
         <Section className="max-w-sm ">
           <img src={Logo} className=" mb-4 md:mb-12 " alt="GDSC_LOGO" />
           <Para className="text-base font-poppins ">
