@@ -10,7 +10,7 @@ import GDSC from "assets/svg/Navbar/logo.jpeg";
 import { motion } from "framer-motion";
 import useAnimatedNavToggler from "assets/helper/NavToggler";
 
-const Container = tw.header` justify-between items-center w-full mx-auto`;
+const Container = tw.header` justify-between items-center w-full mx-auto fixed bg-white z-50`;
 const NavLink = tw.a``;
 // const NavLinks = tw.div`inline-block h-full`;
 const NavLinkCon = tw.span`text-lg my-2 lg:text-sm lg:mx-6 lg:my-0  font-semibold tracking-wide transition duration-300 pb-1 border-b-2 border-transparent  text-gray-faint hover:border-blue-core hocus:text-blue-core cursor-pointer`;
@@ -88,22 +88,32 @@ const Header = () => {
         <LogoCon>
           <Logo />
         </LogoCon>
+        
         <SideCon> {LeftLinks}</SideCon>
       </DesktopNavLinks>
-
+      
       <MobileNavLinksContainer
         css={`
           ${collapseBreakpointCss.mobileNavLinksContainer}
         `}
       >
+        
         <MobileNavLinks
           initial={{ x: "150%", display: "none" }}
           animate={animation}
           css={collapseBreakpointCss.mobileNavLinks}
         >
+        
           <span>{LeftLinks}</span>
         </MobileNavLinks>
+
         <GDSCImg src={GDSC} alt="GDSC" />
+        <div style={{position:"absolute", left:"25vw", color:"grey"}}>
+          GDSCVIT
+          </div>
+          <ThemeBtnCon style={{position:"absolute", right:"12vw"}}>
+        <ThemeBtn />
+      </ThemeBtnCon>
         <NavToggle
           onClick={toggleNavbar}
           className={showNavLinks ? "open" : "closed"}
