@@ -48,6 +48,18 @@ const opportunities = [
     title: "UI/UX Designer",
     url: "#",
   },
+  {
+    id: "8",
+    image: `${Cred}`,
+    title: "UI/UX Designer",
+    url: "#",
+  },
+  {
+    id: "9",
+    image: `${Grow}`,
+    title: "UI/UX Designer",
+    url: "#",
+  },
 ];
 
 export default opportunities;
