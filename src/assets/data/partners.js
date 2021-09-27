@@ -8,17 +8,17 @@ import swiggy from "../images/OurPartnersImages/swiggy.png";
 const partners = [
   {
     id: 1,
-    src: `${cred}`,
+    src: `${groww}`,
     alt: "Cred",
   },
   {
     id: 2,
-    src: `${ibm}`,
+    src: `${groww}`,
     alt: "IBM",
   },
   {
     id: 3,
-    src: `${LnT}`,
+    src: `${groww}`,
     alt: "L&T",
   },
   {
@@ -28,12 +28,12 @@ const partners = [
   },
   {
     id: 5,
-    src: `${prime}`,
+    src: `${groww}`,
     alt: "Prime",
   },
   {
     id: 6,
-    src: `${swiggy}`,
+    src: `${groww}`,
     alt: "Swiggy",
   },
 ];
