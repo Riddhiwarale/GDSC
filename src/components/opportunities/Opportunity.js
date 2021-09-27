@@ -8,8 +8,8 @@ function Opportunity() {
       <div className="flex flex-col bg-white"></div>
       <div className="flex flex-wrap w-full  p-4 bg-slickBackground">
         <div className="w-full lg:mb-0">
-          <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
-            Opportunities
+          <h1 className="text-center font-bold text-topcolor xl:text-4xl lg:text-4xl text-2xl">
+            Our <span className="text-greenc">Resources</span>
           </h1>
         </div>
       </div>

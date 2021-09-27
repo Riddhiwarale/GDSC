@@ -75,7 +75,7 @@ export default class Events extends Component {
         return (
             
             <div className='p-10 bg-blue-50'>
-                <p className='text-center pt-6 pb-4 text-4xl font-bold text-gray-700'>Our <span className='text-yellow-400'>Dream Events</span></p>
+                <p className='text-center pt-6 pb-4 text-4xl font-bold text-gray-700'>Our <span className='text-yellow-400'>Events</span></p>
                 <p className='text-center text-gray-600 pb-8'>
                     An event is something that happens, especially when its unusual or important. <br />
                     You can use events to describe <br /> all the things that are happening in a particular situation. 
