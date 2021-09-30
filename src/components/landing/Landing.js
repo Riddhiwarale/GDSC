@@ -2,12 +2,12 @@ import React from "react";
 import landingimage from "../../assets/images/LandingImages/landingday.png";
 const Landing = () => {
   return (
-    <div>
+    <div className="w-full h-landingPage">
       <div className="container">
-        <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full">
+        <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full pt-10">
           <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">
             <div className="w-full mb-10 ">
-              <div>
+              <div className="flex flex-col justify-center align-center">
                 <p className="font-bold text-sm xl:text-lg lg:text-lg pb-1 xl:pb-2 lg:pb-2 pl-1">
                   Our Aim
                 </p>

@@ -2,7 +2,7 @@ import React from "react";
 import "./opportunities.css";
 function Opportunities({ image, title, opp_url }) {
   return (
-    <div className="inline-block px-3 bg-slickBackground pt-3">
+    <div className="inline-block px-3  pt-3">
       <div className="w-210 h-240 sm:w-260  max-w-xs overflow-hidden rounded-lg  border-2 border-solid border-blue-300 shadow-xl bg-white hover:shadow-2xl transition-shadow duration-300 ease-in-out">
         <img
           className="rounded w-full h-135 object-contain object-center pl-3 pr-3"

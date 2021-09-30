@@ -6,14 +6,14 @@ function Opportunity() {
   return (
     <>
       <div className="flex flex-col bg-white"></div>
-      <div className="flex flex-wrap w-full  p-4 bg-slickBackground">
+      <div className="flex flex-wrap w-full  p-4 ">
         <div className="w-full lg:mb-0">
           <h1 className="text-center font-bold text-topcolor xl:text-4xl lg:text-4xl text-2xl">
             Our <span className="text-greenc">Resources</span>
           </h1>
         </div>
       </div>
-      <div className="flex overflow-x-scroll pb-10 hide-scroll-bar bg-slickBackground">
+      <div className="flex overflow-x-scroll pb-10 hide-scroll-bar ">
         <div className="flex flex-nowrap lg:ml-10 md:ml-10 ml-0">
           {opportunities.map((opp) => (
             <Opportunities

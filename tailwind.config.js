@@ -94,6 +94,7 @@ module.exports = {
         240: "240px",
         135: "135px",
         landing: "171vh",
+        landingPage: "100vh",
       },
       width: {
         "1/7": "14.2857143%",

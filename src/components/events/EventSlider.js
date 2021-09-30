@@ -1,21 +1,41 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
-import { information } from "../../assets/data/teaminfo";
+
 import NextArrow from "./NextArrow";
 import PrevArrow from "./PreviousArrow";
-import Slides from "./Slides";
-import Header from "./Sliderheader";
+import Slides from "./Eventsslides";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 const SliderFunction = () => {
+  const information = [
+    {
+      id: 1,
+      event: "first",
+    },
+    {
+      id: 2,
+      event: "second",
+    },
+    {
+      id: 3,
+      event: "third",
+    },
+    {
+      id: 4,
+      event: "",
+    },
+  ];
   const [imageIndex, setImageIndex] = useState(0);
   const settings = {
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 5,
+    slidesToShow: 3,
     centerMode: true,
     swipeToSlide: true,
+    slidesToScroll: 1,
     centerPadding: 0,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -53,21 +73,21 @@ const SliderFunction = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (
-    <div className="w-full">
-      <Header />
-      <div className="bg-slickBackground-color px-5">
-        <Slider {...settings}>
-          {information.map((info, idx) => (
-            <Slides
-              idx={idx}
-              imageIndex={imageIndex}
-              name={info.name}
-              status={info.status}
-              image={info.image}
-            />
-          ))}
-        </Slider>
-      </div>
+    <div className="p-10 bg-blue-50 bg-slickBackground">
+      <p className="text-center pt-6 pb-4 text-4xl font-bold text-gray-700">
+        Our <span className="text-yellow-400">Events</span>
+      </p>
+      <p className="text-center text-gray-600 pb-8">
+        An event is something that happens, especially when its unusual or
+        important. <br />
+        You can use events to describe <br /> all the things that are happening
+        in a particular situation.
+      </p>
+      <Slider {...settings}>
+        {information.map((info, idx) => (
+          <Slides idx={idx} imageIndex={imageIndex} event={info.event} />
+        ))}
+      </Slider>
     </div>
   );
 };
