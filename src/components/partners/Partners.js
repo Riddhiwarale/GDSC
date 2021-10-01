@@ -16,7 +16,7 @@ const breakPoints = [
 
 function Partners(props) {
   return (
-    <div className="flex flex-col m-2 bg-slickBackground">
+    <div className="flex flex-col m-2 bg-slickBackground pb-16">
       <h1 className="text-center font-bold text-topcolor xl:text-4xl lg:text-4xl text-2xl mt-8 pt-8">
         Our <span className="font-bold text-redc"> Partners</span>
       </h1>

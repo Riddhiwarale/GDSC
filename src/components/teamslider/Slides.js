@@ -45,16 +45,18 @@ const Slides = ({ name, status, idx, imageIndex, image, linkedin }) => {
           >
             {status}
           </p>
-          <a
-            href={linkedin}
-            className={
-              idx === imageIndex
-                ? "text-white cursor-pointer"
-                : "text-blue-500 cursor-pointer disabled"
-            }
-          >
-            <FaLinkedinIn />
-          </a>
+          {linkedin && (
+            <a
+              href={linkedin}
+              className={
+                idx === imageIndex
+                  ? "text-white cursor-pointer"
+                  : "text-blue-500 cursor-pointer"
+              }
+            >
+              <FaLinkedinIn />
+            </a>
+          )}
         </div>
       </div>
     </div>

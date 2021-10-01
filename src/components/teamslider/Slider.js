@@ -53,9 +53,9 @@ const SliderFunction = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (
-    <div className="w-full">
+    <div className="w-full pt-10 pb-10">
       <Header />
-      <div className="bg-slickBackground-color px-5">
+      <div className="bg-slickBackground-color px-5 pt-10">
         <Slider {...settings}>
           {information.map((info, idx) => (
             <Slides
