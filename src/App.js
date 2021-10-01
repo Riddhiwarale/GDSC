@@ -4,7 +4,7 @@ import Navbar from "./components/navbar/Header";
 import Flipcard from "./components/flipcard/FlipCard";
 import Landing from "./components/landing/Landing";
 import Partners from "./components/partners/Partners";
-import Events from "./components/events/Events";
+import Events from "./components/events/EventSlider";
 import Footer from "./components/footer/FooterGrid";
 import SwipeToSlide from "./components/opportunities/Opportunities";
 import "slick-carousel/slick/slick.css";

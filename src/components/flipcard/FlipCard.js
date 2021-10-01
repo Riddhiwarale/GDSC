@@ -9,7 +9,7 @@ import build from "../../assets/images/OurIdeasImages/build.png";
 function FlipCard() {
   const [cards, setCards] = useState(CONTENT);
   return (
-    <div className="bg-slickBackground m-auto p-4">
+    <div className="bg-slickBackground m-auto p-4 pt-20 pb-20">
       <div className="container">
         <div className="header">
           <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
