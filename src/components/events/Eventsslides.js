@@ -11,8 +11,8 @@ const Slides = ({ idx, imageIndex, event }) => {
       <div
         className={
           idx === imageIndex
-            ? "h-96 transform scale-90  opacity-100 shadow-2xl bg-white"
-            : "h-96 transform scale-75  transition duration-300 opacity-100  shadow-lg  bg-white"
+            ? "h-eheight  transform scale-90  opacity-100 shadow-2xl bg-white"
+            : "h-eheight transform scale-75  transition duration-300 opacity-100  shadow-lg  bg-white"
         }
       >
         <div

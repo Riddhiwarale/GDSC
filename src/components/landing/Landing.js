@@ -8,7 +8,7 @@ const Landing = () => {
           <div className="xl:w-2/4 w-full 2xl:mt-32 xl:mt-32 lg:mt-32 sm:mt-10">
             <div className="w-full mb-10 ">
               <div className="flex flex-col justify-center align-center">
-                <p className="font-bold text-sm xl:text-lg lg:text-lg sm:text-md pb-1 xl:pb-2 lg:pb-2 pl-1 2xl:pt-10 xl:pt-10 lg:pt-10 ">
+                <p className="font-bold text-sm xl:text-lg lg:text-lg sm:text-md pb-1 xl:pb-2 lg:pb-2 pl-1 2xl:pt-10 xl:pt-10 lg:pt-10 pt-20">
                   Our Aim
                 </p>
 

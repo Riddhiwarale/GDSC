@@ -95,8 +95,10 @@ module.exports = {
         135: "135px",
         landing: "171vh",
         landingPage: "100vh",
+        mlandingpage: "90vh",
         mheight: "260px",
         lheight: "400px",
+        eheight: "500px",
       },
       width: {
         "1/7": "14.2857143%",

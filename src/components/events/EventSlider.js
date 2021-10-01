@@ -59,6 +59,15 @@ const SliderFunction = () => {
         },
       },
       {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          swipeToSlide: true,
+        },
+      },
+      {
         breakpoint: 500,
         settings: {
           dots: false,
