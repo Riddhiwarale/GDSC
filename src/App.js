@@ -6,8 +6,8 @@ import Landing from "./components/landing/Landing";
 import Partners from "./components/partners/Partners";
 import Events from "./components/events/Events";
 import Footer from "./components/footer/FooterGrid";
-import SwipeToSlide from "./components/opportunities/opportunities";
-import "slick-carousel/slick/slick.css"; 
+import SwipeToSlide from "./components/opportunities/Opportunities";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
