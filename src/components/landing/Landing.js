@@ -2,25 +2,25 @@ import React from "react";
 import landingimage from "../../assets/images/LandingImages/landingday.png";
 const Landing = () => {
   return (
-    <div className="w-full h-landingPage">
+    <div className="w-full 2xl:h-landingPage xl:h-landingPage lg:h-landingPage  sm:h-landingPage">
       <div className="container">
-        <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full pt-10">
-          <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">
+        <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-col-reverse  w-full 2xl:pt-10 xl:pt-10 lg:pt-10 sm:pt-16 pt-20">
+          <div className="xl:w-2/4 w-full 2xl:mt-32 xl:mt-32 lg:mt-32 sm:mt-10">
             <div className="w-full mb-10 ">
               <div className="flex flex-col justify-center align-center">
-                <p className="font-bold text-sm xl:text-lg lg:text-lg pb-1 xl:pb-2 lg:pb-2 pl-1">
+                <p className="font-bold text-sm xl:text-lg lg:text-lg sm:text-md pb-1 xl:pb-2 lg:pb-2 pl-1 2xl:pt-10 xl:pt-10 lg:pt-10 ">
                   Our Aim
                 </p>
 
-                <div className="w-full h-auto block">
-                  <p className="xl:text-exl lg:text-exsl sm:text-md md:text-xl  xs:text-mfont  text-lfont block">
+                <div className="w-full h-auto block 2xl:pt-5 xl:pt-5 lg:pt-5 ">
+                  <p className="xl:text-exl lg:text-exsl sm:text-exsl md:text-xl  xs:text-mfont  text-lfont block">
                     <span className="text-redc">Converting</span>
                     <span className="ml-1 text-greenc">Ideas</span>
                     <span className="ml-1 text-yellowc">into</span>
                     <span className="ml-1 text-bluec">Reality!</span>
                   </p>
                 </div>
-                <div className="w-full mt-3 mb-3 xl:text-lg lg:text-lg sm:text-xs text-xs pl-1">
+                <div className="w-full mt-3 mb-3 xl:text-lg lg:text-lg sm:text-landingfont text-xs pl-1 2xl:pt-5 xl:pt-5 lg:pt-5">
                   <p>
                     Google Developer Student Club Vit
                     <br />
@@ -32,7 +32,7 @@ const Landing = () => {
                   </p>
                 </div>
               </div>
-              <div className="mt-5 w-full xl:w-11/12 border p-1 rounded-xl text-left feont-bold flex justify-between">
+              <div className="mt-5 w-full xl:w-11/12 border p-1 rounded-xl text-left feont-bold flex justify-between 2xl:mt-10 xl:mt-10 lg:mt-10 sm:mt-5">
                 <input
                   type="text"
                   name=""
@@ -46,8 +46,12 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="xl:w-2/4 w-full  block my-auto">
-            <img src={landingimage} alt="" />
+          <div className="xl:w-2/4 w-full  block my-auto 2xl:pt-20 mx-auto xl:pt-20 lg:pt-20">
+            <img
+              src={landingimage}
+              alt=""
+              className="sm:w-lwidth sm:h-lheight block mx-auto"
+            />
           </div>
         </div>
       </div>

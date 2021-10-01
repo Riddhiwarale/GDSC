@@ -104,6 +104,8 @@ module.exports = {
         "5/7": "71.4285714%",
         "6/7": "85.7142857%",
         210: "210px",
+        lwidth: "460px",
+        lheight: "330px",
         // landing: "100vw",
       },
       fontSize: {
@@ -113,6 +115,7 @@ module.exports = {
         exsl: "30px",
         mfont: "19px",
         lfont: "20px",
+        landingfont: "15px",
       },
     },
   },

@@ -1,5 +1,6 @@
 import React from "react";
-const Slides = ({ name, status, idx, imageIndex, image }) => {
+import { FaLinkedinIn } from "react-icons/fa";
+const Slides = ({ name, status, idx, imageIndex, image, linkedin }) => {
   return (
     <div className="xl:mt-10 mb-10 w-full p-2 xl:p-0 lg:p-0 md:p-0 sm:p-0">
       <div
@@ -44,6 +45,16 @@ const Slides = ({ name, status, idx, imageIndex, image }) => {
           >
             {status}
           </p>
+          <a
+            href={linkedin}
+            className={
+              idx === imageIndex
+                ? "text-white cursor-pointer"
+                : "text-blue-500 cursor-pointer disabled"
+            }
+          >
+            <FaLinkedinIn />
+          </a>
         </div>
       </div>
     </div>

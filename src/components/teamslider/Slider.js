@@ -64,6 +64,7 @@ const SliderFunction = () => {
               name={info.name}
               status={info.status}
               image={info.image}
+              linkedin={info.linkedin}
             />
           ))}
         </Slider>
