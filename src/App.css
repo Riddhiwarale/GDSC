@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
 /* Our Proud Partners -> React Elastic Carousel: */
 .rec.rec-arrow:disabled {
   visibility: hidden;

@@ -13,7 +13,7 @@ import { ReactComponent as Github } from "assets/svg/Social/github.svg";
 import { ReactComponent as Youtube } from "assets/svg/Social/youtube.svg";
 import { ReactComponent as Linkedin } from "assets/svg/Social/linkedin.svg";
 
-const BigContainer = tw.div`p-12 bg-blue-100`;
+const BigContainer = tw.div`p-12 bg-white`;
 const Container = tw.div`sm:px-4 2xl:px-0 pt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  justify-items-center`;
 const Section = tw.div`flex flex-col w-full md:w-auto	 items-center text-lg`;
 const Para = tw.p`text-gray-600 leading-snug text-center text-base `;

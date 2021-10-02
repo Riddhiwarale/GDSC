@@ -94,6 +94,11 @@ module.exports = {
         240: "240px",
         135: "135px",
         landing: "171vh",
+        landingPage: "100vh",
+        mlandingpage: "90vh",
+        mheight: "260px",
+        lheight: "400px",
+        eheight: "500px",
       },
       width: {
         "1/7": "14.2857143%",
@@ -103,6 +108,8 @@ module.exports = {
         "5/7": "71.4285714%",
         "6/7": "85.7142857%",
         210: "210px",
+        lwidth: "600px",
+
         // landing: "100vw",
       },
       fontSize: {
@@ -112,6 +119,7 @@ module.exports = {
         exsl: "30px",
         mfont: "19px",
         lfont: "20px",
+        landingfont: "15px",
       },
     },
   },

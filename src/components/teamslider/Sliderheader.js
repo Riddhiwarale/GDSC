@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <div className="block mt-10">
       <div className="block text-center text-xl sm:text-2xl lg:text-3xl">
-        <span className="text-headerColor-heading border-b-2 border-underlineColor-color">
-          Meet Our Amazing Team
-        </span>
+      <h1 className="text-center font-bold text-topcolor xl:text-4xl lg:text-4xl text-2xl">
+            Our <span className="text-bluec">Team</span>
+          </h1>
       </div>
     </div>
   );

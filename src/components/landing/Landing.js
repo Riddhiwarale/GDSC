@@ -2,6 +2,7 @@ import React from "react";
 import landingimage from "../../assets/images/LandingImages/landingday.png";
 import jQuery from "jquery";
 import './Landing.css';
+import landingimage from "../../assets/svg/Logo.svg";
 const Landing = () => {
   jQuery(document).ready(function () {
 		jQuery(".container-wrap").append(
@@ -45,19 +46,23 @@ const Landing = () => {
                     <span className="ml-1 text-bluec">Reality!</span>
                   </p>
                 </div>
-                <div className="w-full mt-3 mb-3 xl:text-lg lg:text-lg sm:text-xs text-xs pl-1">
-                  <p>
-                    Google Developer Student Club Vit
-                    <br />
-                    is community of students from all undergraduate
-                    <br />
-                    or graduate programs with an internet and
-                    <br />
-                    growing as a developer are welcome
+                <div className="w-full mt-3 mb-3 xl:text-lg lg:text-lg md:text-md sm:text-landingfont text-xs pl-1 2xl:pt-5 xl:pt-5 lg:pt-5">
+                  <p className="flex flex-col xl:text-lg lg:text-lg md:text-sm sm:text-sm text-xs">
+                    <span className="pb-2">
+                      Google Developer Student Club Vit
+                    </span>
+                    <span className="pb-2">
+                      is community of students from all undergraduate or
+                      graduate
+                    </span>
+                    <span className="pb-2">
+                      programs with an internet and growing as a developer are
+                    </span>
+                    <span className="pb-2">welcome</span>
                   </p>
                 </div>
               </div>
-              <div className="mt-5 w-full xl:w-11/12 border p-1 rounded-xl text-left feont-bold flex justify-between">
+              <div className="mt-5 w-full xl:w-11/12 border p-1 rounded-xl text-left feont-bold flex justify-between 2xl:mt-10 xl:mt-10 lg:mt-10 sm:mt-5">
                 <input
                   type="text"
                   name=""
@@ -71,8 +76,17 @@ const Landing = () => {
               </div>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="xl:w-2/4 w-full  block my-auto" style={{}}>
             <img src={landingimage} alt="" />
+=======
+          <div className=" w-full  block my-auto 2xl:pt-20 xl:pt-20 ">
+            <img
+              src={landingimage}
+              alt="Landing"
+              className="w-full xl:h-lheight lg:h-lheight md:h-mheight sm:h-mheight"
+            />
+>>>>>>> 9bf95eb463de3bdcde373269e5501f8b64de0bcc
           </div>
         </div>
       </div>

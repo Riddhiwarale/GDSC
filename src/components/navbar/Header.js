@@ -67,7 +67,7 @@ const Header = () => {
         <NavLink>Resources</NavLink>
       </NavLinkCon>
       <NavLinkCon>
-        <NavLink>Partner With Us</NavLink>
+        <NavLink>Partners With Us</NavLink>
       </NavLinkCon>
       <NavLinkCon>
         <NavLink>Contact Us</NavLink>
