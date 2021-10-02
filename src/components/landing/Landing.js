@@ -76,17 +76,8 @@ const Landing = () => {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
           <div className="xl:w-2/4 w-full  block my-auto" style={{}}>
             <img src={landingimage} alt="" />
-=======
-          <div className=" w-full  block my-auto 2xl:pt-20 xl:pt-20 ">
-            <img
-              src={landingimage}
-              alt="Landing"
-              className="w-full xl:h-lheight lg:h-lheight md:h-mheight sm:h-mheight"
-            />
->>>>>>> 9bf95eb463de3bdcde373269e5501f8b64de0bcc
           </div>
         </div>
       </div>
