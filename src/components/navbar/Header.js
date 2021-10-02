@@ -84,9 +84,9 @@ const Header = () => {
 
   return (
     <Container>
-      <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
-        <LogoCon>
-          <Logo />
+      <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks} >
+        <LogoCon >
+          <Logo  />
         </LogoCon>
         
         <SideCon> {LeftLinks}</SideCon>
@@ -102,6 +102,7 @@ const Header = () => {
           initial={{ x: "150%", display: "none" }}
           animate={animation}
           css={collapseBreakpointCss.mobileNavLinks}
+          
         >
         
           <span>{LeftLinks}</span>

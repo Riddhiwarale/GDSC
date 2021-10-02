@@ -1,19 +1,45 @@
 import React from "react";
+import landingimage from "../../assets/images/LandingImages/landingday.png";
+import jQuery from "jquery";
+import './Landing.css';
 import landingimage from "../../assets/svg/Logo.svg";
 const Landing = () => {
+  jQuery(document).ready(function () {
+		jQuery(".container-wrap").append(
+			"<ul class='circles'><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>"
+		);
+	});
+
   return (
-    <div className="w-full 2xl:h-landingPage xl:h-landingPage lg:h-landingPage md:h-landingPage sm:h-landingPage h-landingPage">
-      <div className="container">
-        <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-col-reverse  w-full 2xl:pt-10 xl:pt-10 lg:pt-10 sm:pt-16 pt-20">
-          <div className="xl:w-2/4 w-full 2xl:mt-32 xl:mt-32 lg:mt-32 sm:mt-10">
+    <div>
+      <div className="container" style={{ paddingTop: "3rem" }}>
+      <ul class='circles'>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full">
+
+
+          <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">
             <div className="w-full mb-10 ">
-              <div className="flex flex-col justify-center align-center">
-                <p className="font-bold text-sm xl:text-lg lg:text-lg sm:text-md pb-1 xl:pb-2 lg:pb-2 pl-1 2xl:pt-10 xl:pt-10 lg:pt-10 pt-20">
+              
+              <div>
+                
+                <p className="font-bold text-sm xl:text-lg lg:text-lg pb-1 xl:pb-2 lg:pb-2 pl-1">
                   Our Aim
                 </p>
 
-                <div className="w-full h-auto block 2xl:pt-5 xl:pt-5 lg:pt-5 ">
-                  <p className="xl:text-exl lg:text-exsl sm:text-exsl md:text-exsl  xs:text-mfont  text-lfont block">
+                <div className="w-full h-auto block">
+                
+                  <p className="xl:text-exl lg:text-exsl sm:text-md md:text-xl  xs:text-mfont  text-lfont block">
                     <span className="text-redc">Converting</span>
                     <span className="ml-1 text-greenc">Ideas</span>
                     <span className="ml-1 text-yellowc">into</span>
@@ -50,12 +76,8 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className=" w-full  block my-auto 2xl:pt-20 xl:pt-20 ">
-            <img
-              src={landingimage}
-              alt="Landing"
-              className="w-full xl:h-lheight lg:h-lheight md:h-mheight sm:h-mheight"
-            />
+          <div className="xl:w-2/4 w-full  block my-auto" style={{}}>
+            <img src={landingimage} alt="" />
           </div>
         </div>
       </div>
