@@ -34,9 +34,8 @@ const FooterGrid = () => {
         <Section className="max-w-sm ">
           <img src={Logo} className=" mb-4 md:mb-12 " alt="GDSC_LOGO" />
           <Para className="text-base font-poppins ">
-            Learn about a range of technical topics and gain new skills through
-            hands-on workshops, events, talks and project-building activities -
-            both online and in-person
+          We are here at GDSC VIT to bridge the gap between your emerging Ideas and the changing Reality. 
+          Let's Connect, Learn and Grow together to emerge as the Best!
             <br /> <br />A community driven by motto of{" "}
             <b>Converting Ideas into Reality!</b>
           </Para>

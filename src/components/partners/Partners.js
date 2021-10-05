@@ -1,6 +1,9 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import partners from "../../assets/data/partners";
+import cred from "../../assets/images/OurPartnersImages/cred.svg";
+import Designboat from "../../assets/images/OurPartnersImages/Designboat.svg"
+import Logo from "../../assets/svg/Logo.svg"
 import "../../App.css";
 
 /* React Elastic Carousel Settings */
@@ -39,11 +42,13 @@ function Partners(props) {
               <img
                 src={partner.src}
                 alt={partner.alt}
-                style={{ height: "100px" }}
+                style={{ width: "100px", height: "100px" }}
               />
             </div>
           ))}
         </Carousel>
+          <img src={cred} className='text-green-200' alt='bruhh' />
+          <img src={Designboat} className='text-green-200' alt='bruhh' />
       </div>
     </div>
   );
