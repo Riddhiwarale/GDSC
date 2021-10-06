@@ -2,7 +2,8 @@ import React from "react";
 
 import jQuery from "jquery";
 import "./Landing.css";
-import landingimage from "../../assets/svg/Logo.svg";
+// import landingimage from "../../assets/svg/Logo.svg";
+import landingimage from "../../assets/images/LandingImages/landingday.png";
 const Landing = () => {
   jQuery(document).ready(function () {
     jQuery(".container-wrap").append(
@@ -15,6 +16,34 @@ const Landing = () => {
       <div className="container" style={{ paddingTop: "3rem" }}>
         <ul class="circles">
           <li></li>
+          <li>
+            <div class="arrow-up"></div>
+            <div class="arrow-down"></div>
+            <div class="arrow-left"></div>
+            <div class="arrow-right"></div>
+          </li>
+          <li></li>
+          <li>+</li>
+          <li></li>
+          <li>
+            <div class="arrow-up1"></div>
+            <div class="arrow-down1"></div>
+            <div class="arrow-left1"></div>
+            <div class="arrow-right1"></div>
+          </li>
+          <li></li>
+          <li>+</li>
+          <li></li>
+          <li>
+            <div class="arrow-up2"></div>
+            <div class="arrow-down2"></div>
+            <div class="arrow-left2"></div>
+            <div class="arrow-right2"></div>
+          </li>
+          <li></li>
+          <li>+</li>
+          
+          {/* <li></li>
           <li></li>
           <li></li>
           <li></li>
@@ -22,8 +51,7 @@ const Landing = () => {
           <li></li>
           <li></li>
           <li></li>
-          <li></li>
-          <li></li>
+          <li></li> */}
         </ul>
         <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full">
           <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">
@@ -44,17 +72,17 @@ const Landing = () => {
                 <div className="w-full mt-3 mb-3 xl:text-lg lg:text-lg md:text-md sm:text-landingfont text-xs pl-1 2xl:pt-5 xl:pt-5 lg:pt-5">
                   <p className="flex flex-col xl:text-lg lg:text-lg md:text-sm sm:text-sm text-xs">
                     <span className="pb-2">
-                    Welcome to the first ever chapter of Google developer students club - VIT.
+                      Welcome to the first ever chapter of Google developer students club - VIT.
                     </span>
                     <span className="pb-2">
-                    This is a platform of Growth, striving for improvement by gaining industrial experience.
-                     Manufactured for a better future!
+                      This is a platform of Growth, striving for improvement by gaining industrial experience.
+                      Manufactured for a better future!
                     </span>
                     <span className="pb-2">
-                    People with expertise in different field join together
-                     under one roof that gives rise to this community!
+                      People with expertise in different field join together
+                      under one roof that gives rise to this community!
                     </span>
-                  
+
                   </p>
                 </div>
               </div>
