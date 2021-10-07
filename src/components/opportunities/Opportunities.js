@@ -7,7 +7,8 @@ import image3 from "./OpportunitiesImages/microsoft.svg";
 import image4 from "./OpportunitiesImages/kaggle.svg";
 import image5 from "./OpportunitiesImages/javascript.svg";
 import image6 from "./OpportunitiesImages/lockup.svg";
-
+import image7 from "./OpportunitiesImages/angular.svg";
+import image8 from "./OpportunitiesImages/tensorflow.svg";
 
 const Opportunites = () => {
   const settings = {
@@ -71,7 +72,7 @@ const Opportunites = () => {
             <div className="w-full h-240  sm:w-210 max-w-xs overflow-hidden rounded-lg  border-2 border-solid border-blue-300 shadow-xl bg-white hover:shadow-2xl transition-shadow duration-300 ease-in-out">
               <img
                 className="rounded w-full h-135 object-contain object-center pl-3 pr-3"
-                src={image1}
+                src={image8}
                 alt="Image Size 720x400"
               />
               <h3 className="text-lg text-gray-900 font-medium text-center title-font mb-3">
@@ -79,7 +80,11 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="https://developers.google.com/learn/pathways/tensorflow?hl=en#quiz-/learn/pathways/quizzes/tensorflow/tensorflow-for-developers" target="_blank" className="no-underline">
+                  <a
+                    href="https://developers.google.com/learn/pathways/tensorflow?hl=en#quiz-/learn/pathways/quizzes/tensorflow/tensorflow-for-developers"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -101,7 +106,11 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href=" https://firebase.google.com/learn/pathways/firebase-flutter?hl=en" target="_blank" className="no-underline">
+                  <a
+                    href=" https://firebase.google.com/learn/pathways/firebase-flutter?hl=en"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -123,7 +132,11 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="https://github.com/microsoft/Web-Dev-For-Beginners" target="_blank" className="no-underline">
+                  <a
+                    href="https://github.com/microsoft/Web-Dev-For-Beginners"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -144,7 +157,11 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="https://developers.google.com/learn/pathways/going-further-image-classification?hl=en" target="_blank" className="no-underline">
+                  <a
+                    href="https://developers.google.com/learn/pathways/going-further-image-classification?hl=en"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -166,7 +183,11 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="https://github.com/microsoft/Web-Dev-For-Beginners" target="_blank" className="no-underline">
+                  <a
+                    href="https://github.com/microsoft/Web-Dev-For-Beginners"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -188,7 +209,11 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href=" https://learnjavascript.online/" target="_blank" className="no-underline">
+                  <a
+                    href=" https://learnjavascript.online/"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -202,15 +227,19 @@ const Opportunites = () => {
             <div className="w-full h-240  sm:w-210 max-w-xs overflow-hidden rounded-lg  border-2 border-solid border-blue-300 shadow-xl bg-white hover:shadow-2xl transition-shadow duration-300 ease-in-out">
               <img
                 className="rounded w-full h-135 object-contain object-center pl-3 pr-3"
-                src={image1}
-                alt="Image Size 720x400"
+                src={image7}
+                alt=" Size 720x400"
               />
               <h3 className="text-lg text-gray-900 font-medium text-center title-font mb-3">
-                Anglar Cross Platform
+                Angular Cross Platform
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="https://developers.google.com/learn/pathways/cross-platform-apps-with-angular?hl=en" target="_blank" className="no-underline">
+                  <a
+                    href="https://developers.google.com/learn/pathways/cross-platform-apps-with-angular?hl=en"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -231,7 +260,11 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="https://codelabs.developers.google.com/" target="_blank" className="no-underline">
+                  <a
+                    href="https://codelabs.developers.google.com/"
+                    target="_blank"
+                    className="no-underline"
+                  >
                     Apply Now
                   </a>
                 </button>
@@ -239,7 +272,6 @@ const Opportunites = () => {
             </div>
           </div>
         </div>
-
 
         {/* <div>
           <div className="inline-block px-3">

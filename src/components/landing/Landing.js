@@ -44,17 +44,18 @@ const Landing = () => {
                 <div className="w-full mt-3 mb-3 xl:text-lg lg:text-lg md:text-md sm:text-landingfont text-xs pl-1 2xl:pt-5 xl:pt-5 lg:pt-5">
                   <p className="flex flex-col xl:text-lg lg:text-lg md:text-sm sm:text-sm text-xs">
                     <span className="pb-2">
-                    Welcome to the first ever chapter of Google developer students club - VIT.
+                      Welcome to the first ever chapter of Google developer
+                      students club - VIT.
                     </span>
                     <span className="pb-2">
-                    This is a platform of Growth, striving for improvement by gaining industrial experience.
-                     Manufactured for a better future!
+                      This is a platform of Growth, striving for improvement by
+                      gaining industrial experience. Manufactured for a better
+                      future!
                     </span>
                     <span className="pb-2">
-                    People with expertise in different field join together
-                     under one roof that gives rise to this community!
+                      People with expertise in different field join together
+                      under one roof that gives rise to this community!
                     </span>
-                  
                   </p>
                 </div>
               </div>
