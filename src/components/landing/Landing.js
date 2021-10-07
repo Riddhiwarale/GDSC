@@ -2,7 +2,8 @@ import React from "react";
 
 import jQuery from "jquery";
 import "./Landing.css";
-import landingimage from "../../assets/svg/Logo.svg";
+// import landingimage from "../../assets/svg/Logo.svg";
+import landingimage from "../../assets/images/LandingImages/landingday.png";
 const Landing = () => {
   jQuery(document).ready(function () {
     jQuery(".container-wrap").append(
@@ -15,6 +16,34 @@ const Landing = () => {
       <div className="container" style={{ paddingTop: "3rem" }}>
         <ul class="circles">
           <li></li>
+          <li>
+            <div class="arrow-up"></div>
+            <div class="arrow-down"></div>
+            <div class="arrow-left"></div>
+            <div class="arrow-right"></div>
+          </li>
+          <li></li>
+          <li>+</li>
+          <li></li>
+          <li>
+            <div class="arrow-up1"></div>
+            <div class="arrow-down1"></div>
+            <div class="arrow-left1"></div>
+            <div class="arrow-right1"></div>
+          </li>
+          <li></li>
+          <li>+</li>
+          <li></li>
+          <li>
+            <div class="arrow-up2"></div>
+            <div class="arrow-down2"></div>
+            <div class="arrow-left2"></div>
+            <div class="arrow-right2"></div>
+          </li>
+          <li></li>
+          <li>+</li>
+
+          {/* <li></li>
           <li></li>
           <li></li>
           <li></li>
@@ -22,8 +51,7 @@ const Landing = () => {
           <li></li>
           <li></li>
           <li></li>
-          <li></li>
-          <li></li>
+          <li></li> */}
         </ul>
         <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full">
           <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">

@@ -1,12 +1,3 @@
-// // import cred from "../images/OurPartnersImages/cred.svg";
-// // import { ReactComponent as logo } from "../svg/Designboat.svg";
-// import { ReactComponent as cred } from "../images/OurPartnersImages/cloud.svg";
-// import ibm from "../images/OurPartnersImages/cloud.svg";
-// import boat from "../images/OurPartnersImages/Designboat.svg";
-// import LnT from "../images/OurPartnersImages/LnT.png";
-// import prime from "../images/OurPartnersImages/prime.png";
-// import swiggy from "../images/OurPartnersImages/swiggy.png";
-
 import Designboatlight from "../images/OurPartnersImages/DesignboatLight.svg";
 import GDGLight from "../images/OurPartnersImages/GDGLight.svg";
 import Paytm from "../images/OurPartnersImages/PaytmLight.svg";
