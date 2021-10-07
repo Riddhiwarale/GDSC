@@ -1,6 +1,6 @@
 // import cred from "../images/OurPartnersImages/cred.svg";
-import {ReactComponent as cred} from "../svg/Logo.svg";
-import {ReactComponent as cred} from "../images/OurPartnersImages/cred.svg";
+import cred from "../svg/Logo.svg";
+import groww from "../images/OurPartnersImages/Groww.png";
 import ibm from "../images/OurPartnersImages/ibm.png";
 import LnT from "../images/OurPartnersImages/LnT.png";
 import prime from "../images/OurPartnersImages/prime.png";
