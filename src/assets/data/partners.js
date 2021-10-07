@@ -1,42 +1,34 @@
-// import cred from "../images/OurPartnersImages/cred.svg";
-import cred from "../svg/Logo.svg";
-import groww from "../images/OurPartnersImages/Groww.png";
-import ibm from "../images/OurPartnersImages/ibm.png";
-import LnT from "../images/OurPartnersImages/LnT.png";
-import prime from "../images/OurPartnersImages/prime.png";
-import swiggy from "../images/OurPartnersImages/swiggy.png";
-
+import Designboatlight from "../images/OurPartnersImages/DesignboatLight.svg";
+import GDGLight from "../images/OurPartnersImages/GDGLight.svg";
+import Paytm from "../images/OurPartnersImages/PaytmLight.svg";
+import Vd from "../images/OurPartnersImages/VD.svg";
+import RedFm from "../images/OurPartnersImages/RedFmLight.svg";
 const partners = [
   {
     id: 1,
-    src: `${cred}`,
-    alt: "Cred",
+    src: `${Designboatlight}`,
+    alt: "Design Boat",
   },
   {
     id: 2,
-    src: `${groww}`,
-    alt: "IBM",
+    src: `${GDGLight}`,
+    alt: "GDG",
   },
-  // {
-  //   id: 3,
-  //   src: `${groww}`,
-  //   alt: "L&T",
-  // },
-  // {
-  //   id: 4,
-  //   src: `${groww}`,
-  //   alt: "Groww",
-  // },
-  // {
-  //   id: 5,
-  //   src: `${groww}`,
-  //   alt: "Prime",
-  // },
-  // {
-  //   id: 6,
-  //   src: `${groww}`,
-  //   alt: "Swiggy",
-  // },
+  {
+    id: 3,
+    src: `${Paytm}`,
+    alt: "Paytm",
+  },
+  {
+    id: 4,
+    src: `${Vd}`,
+    alt: "VD",
+  },
+  {
+    id: 5,
+    src: `${RedFm}`,
+    alt: "Red Fm",
+  },
 ];
 
 export default partners;
