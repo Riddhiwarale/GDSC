@@ -83,7 +83,7 @@ const Opportunites = () => {
                   <a
                     href="https://developers.google.com/learn/pathways/tensorflow?hl=en#quiz-/learn/pathways/quizzes/tensorflow/tensorflow-for-developers"
                     target="_blank"
-                    className="no-underline"
+                    className="no-underline" rel="noreferrer"
                   >
                     Apply Now
                   </a>
@@ -135,7 +135,7 @@ const Opportunites = () => {
                   <a
                     href="https://github.com/microsoft/Web-Dev-For-Beginners"
                     target="_blank"
-                    className="no-underline"
+                    className="no-underline" rel="noreferrer"
                   >
                     Apply Now
                   </a>
@@ -160,7 +160,7 @@ const Opportunites = () => {
                   <a
                     href="https://developers.google.com/learn/pathways/going-further-image-classification?hl=en"
                     target="_blank"
-                    className="no-underline"
+                    className="no-underline" rel="noreferrer"
                   >
                     Apply Now
                   </a>
@@ -186,7 +186,7 @@ const Opportunites = () => {
                   <a
                     href="https://github.com/microsoft/Web-Dev-For-Beginners"
                     target="_blank"
-                    className="no-underline"
+                    className="no-underline" rel="noreferrer"
                   >
                     Apply Now
                   </a>
@@ -238,7 +238,7 @@ const Opportunites = () => {
                   <a
                     href="https://developers.google.com/learn/pathways/cross-platform-apps-with-angular?hl=en"
                     target="_blank"
-                    className="no-underline"
+                    className="no-underline" rel="noreferrer"
                   >
                     Apply Now
                   </a>
@@ -263,7 +263,7 @@ const Opportunites = () => {
                   <a
                     href="https://codelabs.developers.google.com/"
                     target="_blank"
-                    className="no-underline"
+                    className="no-underline" rel="noreferrer"
                   >
                     Apply Now
                   </a>

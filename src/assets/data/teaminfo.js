@@ -90,7 +90,7 @@ export const information = [
     linkedin: "https://www.linkedin.com/in/heramba-limaye/",
   },
   {
-    name: "kartik Bodhankar",
+    name: "Kartik Bodhankar",
     status: "Android (Lead)",
     image: `${Kartik}`,
     linkedin: "https://www.linkedin.com/in/kartik-bodhankar",

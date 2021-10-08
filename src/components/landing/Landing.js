@@ -54,7 +54,7 @@ const Landing = () => {
           <li></li> */}
         </ul>
         <div className="flex flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full">
-          <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">
+          <div className="xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5 md:order-1 order-last">
             <div className="w-full mb-10 ">
               <div>
                 <p className="font-bold text-sm xl:text-lg lg:text-lg pb-1 xl:pb-2 lg:pb-2 pl-1">
@@ -101,8 +101,8 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="xl:w-2/4 w-full  block my-auto" style={{}}>
-            <img src={landingimage} alt="" />
+          <div className="flex xl:w-2/4 w-full my-auto md:order-last order-1" style={{}}>
+            <img className='md:justify-self-center' src={landingimage} alt="" />
           </div>
         </div>
       </div>

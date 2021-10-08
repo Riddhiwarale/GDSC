@@ -27,3 +27,8 @@ function App() {
 }
 
 export default App;
+
+/* 
+  TODO: @footer Community Guidelines
+  TODO: @ALL Google Sans Font
+*/

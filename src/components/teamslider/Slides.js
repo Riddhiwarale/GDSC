@@ -47,12 +47,13 @@ const Slides = ({ name, status, idx, imageIndex, image, linkedin }) => {
           </p>
           {
             <a
-              href={linkedin}
+            target='_blank'  
+            href={linkedin}
               className={
                 idx === imageIndex
                   ? "text-white cursor-pointer"
                   : "text-blue-500 cursor-pointer"
-              }
+              } rel="noreferrer"
             >
               <FaLinkedin className="w-5 h-5" />
             </a>
