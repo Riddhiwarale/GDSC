@@ -80,10 +80,10 @@ module.exports = {
     },
     colors,
     extend: {
-      backgroundImage:{
-        "landingUrl":"url('/src/assets/images/LandingImages/particles2.png')"
+      backgroundImage: {
+        landingUrl: "url('/src/assets/images/LandingImages/particles2.png')",
       },
-    
+
       // screens: {
       //   xs: "400px",
       // },
@@ -100,9 +100,9 @@ module.exports = {
         landing: "171vh",
         landingPage: "100vh",
         mlandingpage: "90vh",
-        mheight: "260px",
+        mheight: "400px",
         lheight: "400px",
-        eheight: "500px",
+        eheight: "550px",
       },
       width: {
         "1/7": "14.2857143%",

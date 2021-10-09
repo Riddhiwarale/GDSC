@@ -101,8 +101,11 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="flex xl:w-2/4 w-full my-auto md:order-last order-1" style={{}}>
-            <img className='md:justify-self-center' src={landingimage} alt="" />
+          <div
+            className="flex xl:w-2/4 w-full my-auto md:order-last order-1"
+            style={{}}
+          >
+            <img className="md:justify-self-center" src={landingimage} alt="" />
           </div>
         </div>
       </div>

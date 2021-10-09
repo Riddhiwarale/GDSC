@@ -3,6 +3,7 @@ import GDGLight from "../images/OurPartnersImages/GDGLight.svg";
 import Paytm from "../images/OurPartnersImages/PaytmLight.svg";
 import Vd from "../images/OurPartnersImages/VD.svg";
 import RedFm from "../images/OurPartnersImages/RedFmLight.svg";
+
 const partners = [
   {
     id: 1,
