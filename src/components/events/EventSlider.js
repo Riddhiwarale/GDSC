@@ -4,7 +4,10 @@ import Slider from "react-slick";
 import NextArrow from "./NextArrow";
 import PrevArrow from "./PreviousArrow";
 import Slides from "./Eventsslides";
-
+import orientation from "../../assets/images/OurEventsImages/Orientation.png";
+import Cred from "../../assets/images/OurEventsImages/Cred.png";
+import Cloud from "../../assets/images/OurEventsImages/cloud.jpeg";
+import Shubhum from "../../assets/images/OurEventsImages/Shubham.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -12,19 +15,19 @@ const SliderFunction = () => {
   const information = [
     {
       id: 1,
-      event: "first",
+      event: `${orientation}`,
     },
     {
       id: 2,
-      event: "second",
+      event: `${Cred}`,
     },
     {
       id: 3,
-      event: "third",
+      event: `${Cloud}`,
     },
     {
       id: 4,
-      event: "",
+      event: `${Shubhum}`,
     },
   ];
   const [imageIndex, setImageIndex] = useState(0);
