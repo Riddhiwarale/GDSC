@@ -21,8 +21,8 @@ const Slides = ({ idx, imageIndex, event }) => {
           alt="events"
           className={
             idx === imageIndex
-              ? "xl:h-eheight lg:h-eheight md:h-mheight h-mheight  transform scale-90 w-full opacity-100 shadow-2xl bg-white"
-              : "xl:h-eheight lg:h-eheight md:h-mheight h-mheight  transform scale-75 w-full transition duration-300 opacity-100  shadow-lg  bg-white"
+              ? "xl:h-eheight lg:h-eheight md:h-mheight h-mheight  transform scale-90 w-full opacity-100 shadow-2xl bg-white rounded-lg"
+              : "xl:h-eheight lg:h-eheight md:h-mheight h-mheight  transform scale-75 w-full transition duration-300 opacity-100  shadow-lg  bg-white rounded-lg"
           }
         />
         {/* </div> */}
