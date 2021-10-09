@@ -1,21 +1,53 @@
 import React from "react";
-import Carousel from "react-elastic-carousel";
+import Slider from "react-slick";
 import partners from "../../assets/data/partners";
-import cred from "../../assets/images/OurPartnersImages/cred.svg";
-import Designboat from "../../assets/images/OurPartnersImages/Designboat.svg";
-import Logo from "../../assets/svg/Logo.svg";
 import "../../App.css";
 
-/* React Elastic Carousel Settings */
-// Breakpoints:
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 1 },
-  { width: 850, itemsToShow: 3 },
-  { width: 1150, itemsToShow: 4, itemsToScroll: 2 },
-  { width: 1450, itemsToShow: 5 },
-  { width: 1750, itemsToShow: 6 },
-];
+const settings = {
+  className: "center",
+  infinite: true,
+  centerPadding: "100px",
+  leftPadding: "50px",
+  slidesToShow: 5,
+  swipeToSlide: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1050,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        initialSlide: 1,
+        swipeToSlide: true,
+      },
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1,
+      },
+    },
+  ],
+  afterChange: function (index) {
+    console.log(
+      `Slider Changed to: ${index + 1
+      }, background:   #f5deb3; color:   #f5deb3`
+    );
+  },
+};
 
 function Partners(props) {
   return (
@@ -28,29 +60,32 @@ function Partners(props) {
       </div>
       <div className="text-center xl:place-self-end xl:mr-8 xl:pr-8 lg:place-self-end lg:mr-8 lg:pr-8">
         Contact us:{" "}
-        <a href="mailto:gdsc@vit.edu.in" className="text-bluec">
+        <a href="mailto:gdsc@vit.edu.in" className="text-redc">
           gdsc@vit.edu.in
         </a>
       </div>
 
-      <hr className="m-6" />
+      {/* <hr className="m-6" /> */}
 
-      <div className="flex flex-nowrap lg:ml-10 md:ml-10 ml-0 max-w-full">
-        <Carousel breakPoints={breakPoints}>
-          {partners.map((partner) => (
-            <div key={partner.id}>
-              <img
-                src={partner.src}
-                alt={partner.alt}
-                className="p-1"
-                // style={{ width: "100px", height: "100px" }}
-              />
+      <Slider {...settings}>
+        {partners.map((partner) => (
+          <div>
+            <div className="inline-block px-3" key={partner.id}>
+              <div className="w-full h-240  sm:w-210 max-w-xs overflow-hidden rounded-lg  border-2 border-solid border-blue-300 shadow-xl bg-white hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+                <img
+                  className="rounded w-full h-135 object-contain object-center pl-3 pr-3"
+                  src={partner.src}
+                  alt={partner.heading}
+                />
+                <h2 className="text-2xl text-gray-900 font-medium text-center title-font pt-6 mt-6 ">
+                  {partner.heading}
+                </h2>
+                
+              </div>
             </div>
-          ))}
-        </Carousel>
-        {/* <img src={cred} className="bg-black" alt="bruhh" /> */}
-        {/* <img src={Designboat} className="text-green-200" alt="bruhh" /> */}
-      </div>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 }
