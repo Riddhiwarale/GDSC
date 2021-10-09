@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import opportunities from "../../assets/data/opportunities";
 import "./Item.css";
 
-const Opportunites = () => {
+const Opportunities = () => {
   const settings = {
     className: "center",
     infinite: true,
@@ -55,7 +55,7 @@ const Opportunites = () => {
         id="resources-title"
         className="text-center font-bold text-topcolor xl:text-4xl lg:text-4xl text-2xl mt-8 pt-8"
       >
-        Our <span className="font-bold text-bluec"> Opportunites</span>
+        Our <span className="font-bold text-bluec">Opportunities</span>
       </h1>
 
       <Slider {...settings}>
@@ -92,4 +92,4 @@ const Opportunites = () => {
   );
 };
 
-export default Opportunites;
+export default Opportunities;
