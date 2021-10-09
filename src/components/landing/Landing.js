@@ -2,7 +2,7 @@ import React from "react";
 
 import jQuery from "jquery";
 import "./Landing.css";
-// import landingimage from "../../assets/svg/Logo.svg";
+
 import landingimage from "../../assets/images/LandingImages/landingday.png";
 const Landing = () => {
   jQuery(document).ready(function () {

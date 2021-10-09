@@ -6,7 +6,7 @@ import Landing from "./components/landing/Landing";
 import Partners from "./components/partners/Partners";
 import Events from "./components/events/EventSlider";
 import Footer from "./components/footer/FooterGrid";
-import SwipeToSlide from "./components/opportunities/Opportunities";
+import Opportunities from "./components/opportunities/Opportunities";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Slider />
       <Events />
 
-      <SwipeToSlide />
+      <Opportunities />
       <Partners />
       <Footer />
     </>
