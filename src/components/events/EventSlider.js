@@ -8,23 +8,25 @@ import Slides from "./Eventsslides";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import event from "../../assets/images/OurEventsImages/orientation.png"
+
 const SliderFunction = () => {
   const information = [
     {
       id: 1,
-      event: "first",
+      event: `${event}`,
     },
     {
       id: 2,
-      event: "second",
+      event: `${event}` ,
     },
     {
       id: 3,
-      event: "third",
+      event: `${event}`,
     },
     {
       id: 4,
-      event: "",
+      event: `${event}`,
     },
   ];
   const [imageIndex, setImageIndex] = useState(0);
