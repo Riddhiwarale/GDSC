@@ -2,12 +2,12 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 
-import Logo from "assets/images/FooterImages/logo.png";
+import Logo from "assets/images/FooterImages/footerlogo.svg";
 import Map from "assets/images/FooterImages/map.png";
 
 import { ReactComponent as Phone } from "assets/svg/Social/phone.svg";
 import { ReactComponent as Gmail } from "assets/svg/Social/gmail.svg";
-import { ReactComponent as Insta } from "assets/svg/Social/Insta.svg";
+import { ReactComponent as Insta } from "assets/svg/Social/instagram.svg";
 import { ReactComponent as Twitter } from "assets/svg/Social/twitter.svg";
 import { ReactComponent as Github } from "assets/svg/Social/github.svg";
 import { ReactComponent as Youtube } from "assets/svg/Social/youtube.svg";
@@ -36,8 +36,8 @@ const FooterGrid = () => {
           <Para className="text-base font-poppins ">
           We are here at GDSC VIT to bridge the gap between your emerging Ideas and the changing Reality. 
           Let's Connect, Learn and Grow together to emerge as the Best!
-            <br /> <br />A community driven by motto of{" "}
-            <b>Converting Ideas into Reality!</b>
+            <br /> <br />Built with love by {" "}
+            <b> Web Team GDSC_VIT </b>
           </Para>
         </Section>
         <Section className="mt-20 md:mt-auto">

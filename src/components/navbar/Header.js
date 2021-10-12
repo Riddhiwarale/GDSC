@@ -6,11 +6,11 @@ import { ReactComponent as Logo } from "assets/svg/Navbar/Logo.svg";
 import { ReactComponent as ThemeBtn } from "assets/svg/Navbar/ThemeBtn.svg";
 import { ReactComponent as Menu } from "assets/svg/Navbar/Menu.svg";
 import { ReactComponent as Close } from "assets/svg/Navbar/Close.svg";
-import GDSC from "assets/svg/Navbar/logo.jpeg";
+import { ReactComponent as GDSC } from "assets/svg/navlogo.svg";
 import { motion } from "framer-motion";
 import useAnimatedNavToggler from "assets/helper/NavToggler";
 
-const Container = tw.header` justify-between items-center w-full mx-auto fixed bg-white z-50`;
+const Container = tw.header` justify-between items-center w-full mx-auto`;
 const NavLink = tw.a``;
 // const NavLinks = tw.div`inline-block h-full`;
 const NavLinkCon = tw.span`text-lg my-2 lg:text-sm lg:mx-6 lg:my-0  font-semibold tracking-wide transition duration-300 pb-1 border-b-2 border-transparent  text-gray-faint hover:border-blue-core hocus:text-blue-core cursor-pointer`;
@@ -34,10 +34,10 @@ const LogoCon = styled.a`
 `;
 const SideCon = tw.div` flex justify-center items-center h-full`;
 
-const MobileNavLinksContainer = tw.nav`lg:hidden flex  px-6 sm:px-8 h-16 flex-1 items-center overflow-hidden	 justify-between`;
+const MobileNavLinksContainer = tw.nav`lg:hidden flex  px-6 sm:px-8 h-16 flex-1 items-center justify-between`;
 
 const NavToggle = tw.button`
-  lg:hidden z-20  focus:outline-none hover:text-blue-core transition duration-300
+  lg:hidden z-50  focus:outline-none hover:text-blue-core transition duration-300
 `;
 const MobileNavLinks = motion(styled.div`
   ${tw`hidden   z-10 shadow-2xl absolute -top-3 inset-x-0 mx-4 my-6 p-8 border text-center rounded-lg text-gray-faint bg-white`}
@@ -67,14 +67,11 @@ const Header = () => {
         <NavLink>Resources</NavLink>
       </NavLinkCon>
       <NavLinkCon>
-        <NavLink>Partners With Us</NavLink>
+        <NavLink>Partner With Us</NavLink>
       </NavLinkCon>
       <NavLinkCon>
         <NavLink>Contact Us</NavLink>
       </NavLinkCon>
-      <ThemeBtnCon>
-        <ThemeBtn />
-      </ThemeBtnCon>
     </>,
   ];
 
@@ -84,43 +81,41 @@ const Header = () => {
 
   return (
     <Container>
-      <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks} >
-        <LogoCon >
-          <Logo  />
+      <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
+        <LogoCon>
+          <Logo />
         </LogoCon>
-        
         <SideCon> {LeftLinks}</SideCon>
       </DesktopNavLinks>
-      
+
       <MobileNavLinksContainer
         css={`
           ${collapseBreakpointCss.mobileNavLinksContainer}
         `}
       >
-        
         <MobileNavLinks
           initial={{ x: "150%", display: "none" }}
           animate={animation}
           css={collapseBreakpointCss.mobileNavLinks}
-          
         >
-        
           <span>{LeftLinks}</span>
         </MobileNavLinks>
+        <div className="flex items-center">
+          <GDSC className="h-6 w-8 mr-2" />
+          GDSC
+        </div>
 
-        <GDSCImg src={GDSC} alt="GDSC" />
-        <div style={{position:"absolute", left:"25vw", color:"grey"}}>
-          GDSCVIT
-          </div>
-          <ThemeBtnCon style={{position:"absolute", right:"12vw"}}>
-        <ThemeBtn />
-      </ThemeBtnCon>
-        <NavToggle
-          onClick={toggleNavbar}
-          className={showNavLinks ? "open" : "closed"}
-        >
-          {showNavLinks ? <Close tw="w-6 h-6" /> : <Menu tw="w-6 h-6" />}
-        </NavToggle>
+        <div className="flex  items-center">
+          <ThemeBtnCon tw="z-0">
+            <ThemeBtn />
+          </ThemeBtnCon>
+          <NavToggle
+            onClick={toggleNavbar}
+            className={showNavLinks ? "open" : "closed"}
+          >
+            {showNavLinks ? <Close tw="w-6 h-6" /> : <Menu tw="w-6 h-6" />}
+          </NavToggle>
+        </div>
       </MobileNavLinksContainer>
     </Container>
   );

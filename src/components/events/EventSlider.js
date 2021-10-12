@@ -89,10 +89,10 @@ const SliderFunction = () => {
         Our <span className="text-yellow-400">Events</span>
       </p>
       <p className="text-center text-gray-600 pb-8">
-        An event is something that happens, especially when its unusual or
-        important. <br />
-        You can use events to describe <br /> all the things that are happening
-        in a particular situation.
+       You landed on our 'Promised land' , created by the club and for the club! 
+        Channelize your skills in the right direction along with<br />
+        inclusive learning and disseminating information.
+         <br />
       </p>
       <Slider {...settings}>
         {information.map((info, idx) => (

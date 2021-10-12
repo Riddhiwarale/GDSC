@@ -9,10 +9,36 @@ import Footer from "./components/footer/FooterGrid";
 import SwipeToSlide from "./components/opportunities/Opportunities";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import React, { useEffect, useState } from "react";
+import Loader from "./components/loader/loader";
+
+
 function App() {
+ 
+   const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+      
+    }, 3500);
+
+    } , [] )
+  
+
   return (
+    
     <>
-      <Navbar />
+    <div >
+      {
+        loading ?
+
+        <Loader/>
+
+        :
+      <>
+       <Navbar />
       <Landing />
 
       <Flipcard />
@@ -22,6 +48,12 @@ function App() {
       <SwipeToSlide />
       <Partners />
       <Footer />
+      </>
+         
+      }
+    
+    </div>
+
     </>
   );
 }

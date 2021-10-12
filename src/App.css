@@ -16,6 +16,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.loader{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 @media (max-width: 640px) {
   .container {
     width: 90%;
@@ -55,4 +64,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+.animation-container{
+  height: 500px;
+  width: 500px;
+  background-color: black;
+}  
 }

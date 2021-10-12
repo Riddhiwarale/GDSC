@@ -4,7 +4,7 @@
 	left: 0;
     z-index: 2;
 	width: 100%;
-	height: 10rem;
+	height: 5rem;
 	z-index: -1;
 }
 
@@ -15,14 +15,14 @@
 	width: 20px;
 	height: 20px;
 	/* background: rgba(255, 188, 31, 1); */
-	animation: animate 45s linear infinite;
+	animation: animate 5s linear infinite;
 	bottom: calc(-100px - 40vh);
 }
 
 .circles li:nth-child(1) {
 	left: 10%;
-	width: 80px;
-	height: 80px;
+	width: 40px;
+	height: 40px;
 	animation-delay: 0s;
 	animation-duration: 20s;
 	border-radius: 150%;
@@ -32,8 +32,8 @@
 .arrow-up {
 	width: 0; 
 	height: 0; 
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
+	border-left: 2px solid transparent;
+	border-right: 3px solid transparent;
   }
   
   .arrow-down {
@@ -70,8 +70,8 @@
 
 .circles li:nth-child(3) {
 	left: 70%;
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	animation-delay: 0s;
 	animation-duration: 45s;
 	/* border-radius: 50%; */
@@ -84,14 +84,14 @@
 	animation-delay: 0s;
 	animation-duration: 30s;
 	font-weight: 1000;
-	font-size: 5rem;
+	font-size: 3rem;
 	color: rgba(255, 188, 31, 1);
 }
 
 .circles li:nth-child(5) {
 	left: 5%;
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
 	animation-delay: 0s;
 	animation-duration: 25s;
 	border: 5px solid rgba(255, 188, 31, 1);
@@ -114,8 +114,8 @@
 	width: 0; 
 	height: 0; 
 	border-top: 40px solid transparent;
-	border-bottom: 40px solid transparent;
-	border-left: 30px solid rgb(66, 133, 244);
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid rgb(66, 133, 244);
   }
   
   .arrow-left1	{
@@ -135,8 +135,8 @@
 
 .circles li:nth-child(7) {
 	left: 55%;
-	width: 50px;
-	height: 50px;
+	width: 20px;
+	height: 20px;
 	animation-delay: 0s;
 	animation-duration: 40s;
 	border-radius: 510%;
@@ -155,8 +155,8 @@
 
 .circles li:nth-child(9) {
 	left: 40%;
-	width: 55px;
-	height: 55px;
+	width: 25px;
+	height: 25px;
 	animation-delay: 0s;
 	animation-duration: 15s;
 	background: rgb(52, 168, 83);
@@ -179,8 +179,8 @@
 	width: 0; 
 	height: 0; 
 	border-top: 40px solid transparent;
-	border-bottom: 40px solid transparent;
-	border-left: 30px solid rgba(255, 188, 31, 1);;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid rgba(255, 188, 31, 1);;
   }
   
   .arrow-left2	{
@@ -191,11 +191,11 @@
   }
 .circles li:nth-child(10) {
 	left: 85%;
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 25px;
 	animation-delay: 0s;
 	animation-duration: 20s;
-	border-radius: 50%;
+	border-radius: 40%;
 	border-top-left-radius: 0 !important;
 }
 
