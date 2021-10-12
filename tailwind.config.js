@@ -62,10 +62,6 @@ const colors = {
   paracolor: "#555",
   topcolor: "#333",
   btncolor: "#3060FF",
-  redc: "#EA4335",
-  bluec: "#4285F4",
-  greenc: "#34A853",
-  yellowc: "#FBBC05",
 };
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
@@ -80,10 +76,10 @@ module.exports = {
     },
     colors,
     extend: {
-      backgroundImage:{
-        "landingUrl":"url('/src/assets/images/LandingImages/particles2.png')"
+      backgroundImage: {
+        landingUrl: "url('/src/assets/images/LandingImages/particles2.png')",
       },
-    
+
       // screens: {
       //   xs: "400px",
       // },

@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import partners from "../../assets/data/partners";
-import cred from "../../assets/images/OurPartnersImages/cred.svg";
-import Designboat from "../../assets/images/OurPartnersImages/Designboat.svg";
-import Logo from "../../assets/svg/Logo.svg";
+// import cred from "../../assets/images/OurPartnersImages/cred.svg";
+// import Designboat from "../../assets/images/OurPartnersImages/Designboat.svg";
+// import Logo from "../../assets/svg/Logo.svg";
 import "../../App.css";
 
 /* React Elastic Carousel Settings */

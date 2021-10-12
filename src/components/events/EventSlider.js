@@ -8,7 +8,7 @@ import Slides from "./Eventsslides";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import event from "../../assets/images/OurEventsImages/orientation.png"
+import event from "../../assets/images/OurEventsImages/orientation.png";
 
 const SliderFunction = () => {
   const information = [
@@ -18,7 +18,7 @@ const SliderFunction = () => {
     },
     {
       id: 2,
-      event: `${event}` ,
+      event: `${event}`,
     },
     {
       id: 3,
@@ -84,17 +84,20 @@ const SliderFunction = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
   return (
-    <div className="p-10 bg-blue-50 bg-slickBackground">
-      <p className="text-center pt-6 pb-4 text-4xl font-bold text-gray-700">
-        Our <span className="text-yellow-400">Events</span>
-      </p>
-      <p className="text-center text-gray-600 pb-8">
-       You landed on our 'Promised land' , created by the club and for the club! 
-        Channelize your skills in the right direction along with<br />
-        inclusive learning and disseminating information.
-         <br />
-      </p>
-      <Slider {...settings}>
+    <div className=" bg-blue-50 bg-slickBackground">
+      <div className="px-10">
+        <p className="text-center pt-6 pb-4 text-4xl font-bold text-gray-700">
+          Our <span className="text-yellow-400">Events</span>
+        </p>
+        <p className="text-center text-gray-600 pb-8">
+          You landed on our 'Promised land' , created by the club and for the
+          club! Channelize your skills in the right direction along with
+          <br />
+          inclusive learning and disseminating information.
+          <br />
+        </p>
+      </div>
+      <Slider {...settings} className="mx-2 px-2">
         {information.map((info, idx) => (
           <Slides idx={idx} imageIndex={imageIndex} event={info.event} />
         ))}

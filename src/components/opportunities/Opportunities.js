@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import React from "react";
 import Slider from "react-slick";
 import "./Item.css";
 import image1 from "./OpportunitiesImages/google.svg";
@@ -83,6 +84,7 @@ const Opportunites = () => {
                   <a
                     href="https://developers.google.com/learn/pathways/tensorflow?hl=en#quiz-/learn/pathways/quizzes/tensorflow/tensorflow-for-developers"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -109,6 +111,7 @@ const Opportunites = () => {
                   <a
                     href=" https://firebase.google.com/learn/pathways/firebase-flutter?hl=en"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -135,6 +138,7 @@ const Opportunites = () => {
                   <a
                     href="https://github.com/microsoft/Web-Dev-For-Beginners"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -160,6 +164,7 @@ const Opportunites = () => {
                   <a
                     href="https://developers.google.com/learn/pathways/going-further-image-classification?hl=en"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -186,6 +191,7 @@ const Opportunites = () => {
                   <a
                     href="https://github.com/microsoft/Web-Dev-For-Beginners"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -212,6 +218,7 @@ const Opportunites = () => {
                   <a
                     href=" https://learnjavascript.online/"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -238,6 +245,7 @@ const Opportunites = () => {
                   <a
                     href="https://developers.google.com/learn/pathways/cross-platform-apps-with-angular?hl=en"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -263,6 +271,7 @@ const Opportunites = () => {
                   <a
                     href="https://codelabs.developers.google.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="no-underline"
                   >
                     Apply Now
@@ -286,7 +295,7 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="#" target="_blank" className="no-underline">
+                  <a href="#" target="_blank" rel="noreferrer" className="no-underline">
                     Apply Now
                   </a>
                 </button>
@@ -308,7 +317,7 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="#" target="_blank" className="no-underline">
+                  <a href="#" target="_blank" rel="noreferrer" className="no-underline">
                     Apply Now
                   </a>
                 </button>
@@ -330,7 +339,7 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="#" target="_blank" className="no-underline">
+                  <a href="#" target="_blank" rel="noreferrer" className="no-underline">
                     Apply Now
                   </a>
                 </button>
@@ -352,7 +361,7 @@ const Opportunites = () => {
               </h3>
               <p className="leading-relaxed text-base text-center">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-2xl">
-                  <a href="#" target="_blank" className="no-underline">
+                  <a href="#" target="_blank" rel="noreferrer" className="no-underline">
                     Apply Now
                   </a>
                 </button>

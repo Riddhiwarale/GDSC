@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -17,7 +25,7 @@
   margin-right: auto;
 }
 
-.loader{
+.loader {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -65,9 +73,9 @@
     margin-right: auto;
   }
 
-.animation-container{
-  height: 500px;
-  width: 500px;
-  background-color: black;
-}  
+  .animation-container {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+  }
 }

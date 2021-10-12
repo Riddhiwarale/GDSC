@@ -6,7 +6,7 @@ import { ReactComponent as Logo } from "assets/svg/Navbar/Logo.svg";
 import { ReactComponent as ThemeBtn } from "assets/svg/Navbar/ThemeBtn.svg";
 import { ReactComponent as Menu } from "assets/svg/Navbar/Menu.svg";
 import { ReactComponent as Close } from "assets/svg/Navbar/Close.svg";
-import { ReactComponent as GDSC } from "assets/svg/navlogo.svg";
+import { ReactComponent as GDSC } from "assets/svg/Navbar/navlogo.svg";
 import { motion } from "framer-motion";
 import useAnimatedNavToggler from "assets/helper/NavToggler";
 
@@ -37,7 +37,7 @@ const SideCon = tw.div` flex justify-center items-center h-full`;
 const MobileNavLinksContainer = tw.nav`lg:hidden flex  px-6 sm:px-8 h-16 flex-1 items-center justify-between`;
 
 const NavToggle = tw.button`
-  lg:hidden z-50  focus:outline-none hover:text-blue-core transition duration-300
+  lg:hidden z-40  focus:outline-none hover:text-blue-core transition duration-300
 `;
 const MobileNavLinks = motion(styled.div`
   ${tw`hidden   z-10 shadow-2xl absolute -top-3 inset-x-0 mx-4 my-6 p-8 border text-center rounded-lg text-gray-faint bg-white`}
@@ -46,9 +46,7 @@ const MobileNavLinks = motion(styled.div`
   }
 `);
 
-const GDSCImg = tw.img`h-12`;
-
-const Header = () => {
+export const Header = () => {
   const LeftLinks = [
     <>
       {/* <NavLinkCon>
@@ -120,7 +118,6 @@ const Header = () => {
     </Container>
   );
 };
-export default Header;
 const collapseBreakPointCssMap = {
   sm: {
     mobileNavLinks: tw`sm:hidden`,

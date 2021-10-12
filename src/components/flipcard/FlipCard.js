@@ -7,22 +7,20 @@ import grow from "../../assets/images/OurIdeasImages/grow.png";
 import build from "../../assets/images/OurIdeasImages/build.png";
 
 function FlipCard() {
-  const [cards, setCards] = useState(CONTENT);
+  const [cards] = useState(CONTENT);
   return (
-    <div className="bg-slickBackground m-auto p-4 pt-20 pb-20">
-      <div className="container">
-        <div className="header">
-          <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
-            Our <span className="font-bold ">Ideas</span>
-          </h1>
-          <p className="w-full p-3 m-auto text-paracolor text-center text-sm">
-            DSC is collaborative event of 100+ DSCs from India, who have joined
-            hands to
-            <br /> bring together students, developers and communities
-            <br /> under the same roof.
-          </p>
-        </div>
-        <div className="max-full  mt-0.5 mb-0.5">
+    <div className="bg-slickBackground ">
+      <div className=" px-10 sm:px-8">
+        <h1 className="text-center font-normal text-topcolor xl:text-4xl lg:text-4xl text-2xl">
+          Our <span className="font-bold ">Ideas</span>
+        </h1>
+        <p className="w-full  text-paracolor text-center text-sm">
+          DSC is collaborative event of 100+ DSCs from India, who have joined
+          hands to
+          <br /> bring together students, developers and communities
+          <br /> under the same roof.
+        </p>
+        <div className="w-full  pt-10">
           <FlipCardList cards={cards} />
         </div>
       </div>
