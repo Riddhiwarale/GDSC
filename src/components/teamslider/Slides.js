@@ -21,7 +21,7 @@ const Slides = ({ name, status, idx, imageIndex, image, linkedin }) => {
           <img src={image} alt={name} className="h-full w-full" />
         </div>
         <div
-          class={
+          className={
             idx === imageIndex
               ? "px-6 py-4 bg-blue-500 rounded-b-md"
               : "px-6 py-4"

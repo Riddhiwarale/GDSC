@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 import { ReactComponent as Logo } from "assets/svg/Navbar/Logo.svg";
 import { ReactComponent as ThemeBtn } from "assets/svg/Navbar/ThemeBtn.svg";

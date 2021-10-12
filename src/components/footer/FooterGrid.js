@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 import Logo from "assets/images/FooterImages/footerlogo.svg";
 import Map from "assets/images/FooterImages/map.png";
@@ -34,10 +34,11 @@ const FooterGrid = () => {
         <Section className="max-w-sm ">
           <img src={Logo} className=" mb-4 md:mb-12 " alt="GDSC_LOGO" />
           <Para className="text-base font-poppins ">
-          We are here at GDSC VIT to bridge the gap between your emerging Ideas and the changing Reality. 
-          Let's Connect, Learn and Grow together to emerge as the Best!
-            <br /> <br />Built with love by {" "}
-            <b> Web Team GDSC_VIT </b>
+            We are here at GDSC VIT to bridge the gap between your emerging
+            Ideas and the changing Reality. Let's Connect, Learn and Grow
+            together to emerge as the Best!
+            <br /> <br />
+            Built with love by <b> Web Team GDSC_VIT </b>
           </Para>
         </Section>
         <Section className="mt-20 md:mt-auto">

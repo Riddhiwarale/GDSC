@@ -97,9 +97,14 @@ const SliderFunction = () => {
           <br />
         </p>
       </div>
-      <Slider {...settings} className="mx-2 px-2">
-        {information.map((info, idx) => (
-          <Slides idx={idx} imageIndex={imageIndex} event={info.event} />
+      <Slider key="slide" {...settings} className="mx-2 px-2">
+        {information.map((info, idx, id) => (
+          <Slides
+            key={id}
+            idx={idx}
+            imageIndex={imageIndex}
+            event={info.event}
+          />
         ))}
       </Slider>
     </div>

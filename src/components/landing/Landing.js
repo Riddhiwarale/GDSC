@@ -8,7 +8,7 @@ import { Header } from "components/navbar/Header";
 const Landing = () => {
   return (
     <>
-      <Header />
+      <Header key="header" />
       <div className="flex p-10 sm:p-0 sm:pl-6 flex-col-reverse xl:flex-row lg:flex-row md:flex-row sm:flex-row w-full">
         <div className=" xl:w-2/4 w-full xl:mt-20 lg:mt-20 md:mt-5 sm:mt-5 mt-5">
           <div className=" w-full mb-10 ">

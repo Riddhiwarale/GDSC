@@ -24,16 +24,22 @@ function App() {
 
   return (
     <AnimatePresence>
+      {/* Comment loader to see left right slide animation */}
+
       {loading && (
         <motion.div
-          className="z-50 flex object-center bg-white w-screen h-screen absolute "
+          className="z-50 bg-white w-screen h-screen absolute "
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 2 }}
         >
-          <Loader key="loading" />
+          <Loader
+            key="loading"
+            className="z-50 bg-white w-screen h-screen absolute "
+          />
         </motion.div>
       )}
+
       <AnimationRevealPage key="group">
         <Landing />
         <Flipcard />
