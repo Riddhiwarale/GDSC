@@ -3,10 +3,10 @@ import tw from "twin.macro";
 import styled from "@emotion/styled";
 
 import { ReactComponent as Logo } from "assets/svg/Navbar/Logo.svg";
-import { ReactComponent as ThemeBtn } from "assets/svg/Navbar/ThemeBtn.svg";
+// import { ReactComponent as ThemeBtn } from "assets/svg/Navbar/ThemeBtn.svg";
 import { ReactComponent as Menu } from "assets/svg/Navbar/Menu.svg";
 import { ReactComponent as Close } from "assets/svg/Navbar/Close.svg";
-import { ReactComponent as GDSC } from "assets/svg/Navbar/navlogo.svg";
+import { ReactComponent as GDSC } from "assets/svg/Navbar/logonav.svg";
 import { motion } from "framer-motion";
 import useAnimatedNavToggler from "assets/helper/NavToggler";
 
@@ -14,12 +14,12 @@ const Container = tw.header` justify-between items-center w-full mx-auto`;
 const NavLink = tw.a``;
 // const NavLinks = tw.div`inline-block h-full`;
 const NavLinkCon = tw.span`text-lg my-2 lg:text-sm lg:mx-6 lg:my-0  font-semibold tracking-wide transition duration-300 pb-1 border-b-2 border-transparent  text-gray-faint hover:border-blue-core hocus:text-blue-core cursor-pointer`;
-const ThemeBtnCon = styled.button`
-  ${tw`h-5`}
-  svg {
-    ${tw`h-full`}
-  }
-`;
+// const ThemeBtnCon = styled.button`
+//   ${tw`h-5`}
+//   svg {
+//     ${tw`h-full`}
+//   }
+// `;
 const DesktopNavLinks = tw.nav`hidden lg:flex flex-1 justify-around items-center h-16 shadow `;
 const LogoCon = styled.a`
   svg {
@@ -98,22 +98,22 @@ export const Header = () => {
         >
           <span>{LeftLinks}</span>
         </MobileNavLinks>
-        <div className="flex items-center">
-          <GDSC className="h-6 w-8 mr-2" />
-          GDSC
-        </div>
+        {/* <div className="flex items-center"> */}
+        <GDSC className=" w-28 h-16" />
+        {/* GDSC
+        </div> */}
 
-        <div className="flex  items-center">
+        {/* <div className="flex  items-center">
           <ThemeBtnCon tw="z-0">
             <ThemeBtn />
-          </ThemeBtnCon>
-          <NavToggle
-            onClick={toggleNavbar}
-            className={showNavLinks ? "open" : "closed"}
-          >
-            {showNavLinks ? <Close tw="w-6 h-6" /> : <Menu tw="w-6 h-6" />}
-          </NavToggle>
-        </div>
+          </ThemeBtnCon> */}
+        <NavToggle
+          onClick={toggleNavbar}
+          className={showNavLinks ? "open" : "closed"}
+        >
+          {showNavLinks ? <Close tw="w-6 h-6" /> : <Menu tw="w-6 h-6" />}
+        </NavToggle>
+        {/* </div> */}
       </MobileNavLinksContainer>
     </Container>
   );
