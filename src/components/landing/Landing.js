@@ -3,7 +3,7 @@ import React from "react";
 import "./Landing.css";
 // import { ReactComponent as Landingimage } from "assets/svg/Copy.svg";
 
-import landingimage from "../../assets/images/LandingImages/idea.jpg";
+import landingimage from "../../assets/images/LandingImages/ideas.svg";
 import { Header } from "components/navbar/Header";
 const Landing = () => {
   return (

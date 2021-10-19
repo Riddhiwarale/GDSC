@@ -1,6 +1,5 @@
 import "./App.css";
 import Slider from "./components/teamslider/Slider";
-import Navbar from "./components/navbar/Header";
 import Flipcard from "./components/flipcard/FlipCard";
 import Landing from "./components/landing/Landing";
 import Partners from "./components/partners/Partners";
@@ -12,7 +11,6 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <>
-      <Navbar />
       <Landing />
 
       <Flipcard />

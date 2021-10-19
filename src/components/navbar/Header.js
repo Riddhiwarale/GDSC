@@ -48,7 +48,7 @@ const MobileNavLinks = motion(styled.div`
 
 const GDSCImg = tw.img`h-12`;
 
-const Header = () => {
+export const Header = () => {
   const LeftLinks = [
     <>
       {/* <NavLinkCon>
@@ -84,37 +84,34 @@ const Header = () => {
 
   return (
     <Container>
-      <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks} >
-        <LogoCon >
-          <Logo  />
+      <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
+        <LogoCon>
+          <Logo />
         </LogoCon>
-        
+
         <SideCon> {LeftLinks}</SideCon>
       </DesktopNavLinks>
-      
+
       <MobileNavLinksContainer
         css={`
           ${collapseBreakpointCss.mobileNavLinksContainer}
         `}
       >
-        
         <MobileNavLinks
           initial={{ x: "150%", display: "none" }}
           animate={animation}
           css={collapseBreakpointCss.mobileNavLinks}
-          
         >
-        
           <span>{LeftLinks}</span>
         </MobileNavLinks>
 
         <GDSCImg src={GDSC} alt="GDSC" />
-        <div style={{position:"absolute", left:"25vw", color:"grey"}}>
+        <div style={{ position: "absolute", left: "25vw", color: "grey" }}>
           GDSCVIT
-          </div>
-          <ThemeBtnCon style={{position:"absolute", right:"12vw"}}>
-        <ThemeBtn />
-      </ThemeBtnCon>
+        </div>
+        <ThemeBtnCon style={{ position: "absolute", right: "12vw" }}>
+          <ThemeBtn />
+        </ThemeBtnCon>
         <NavToggle
           onClick={toggleNavbar}
           className={showNavLinks ? "open" : "closed"}
@@ -125,7 +122,6 @@ const Header = () => {
     </Container>
   );
 };
-export default Header;
 const collapseBreakPointCssMap = {
   sm: {
     mobileNavLinks: tw`sm:hidden`,
