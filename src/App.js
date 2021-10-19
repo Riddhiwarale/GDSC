@@ -50,6 +50,7 @@ function App() {
         <Footer />
       </AnimationRevealPage>
     </AnimatePresence>
+    //Commit this
   );
 }
 
