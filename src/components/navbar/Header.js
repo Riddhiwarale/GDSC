@@ -79,7 +79,10 @@ export const Header = () => {
 
   return (
     <Container>
-      <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
+      <DesktopNavLinks
+        key="DesktopNavLinks"
+        css={collapseBreakpointCss.desktopNavLinks}
+      >
         <LogoCon>
           <Logo />
         </LogoCon>
@@ -87,6 +90,7 @@ export const Header = () => {
       </DesktopNavLinks>
 
       <MobileNavLinksContainer
+        key="MobileNavLinksContainer"
         css={`
           ${collapseBreakpointCss.mobileNavLinksContainer}
         `}
