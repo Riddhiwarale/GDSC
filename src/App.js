@@ -49,6 +49,7 @@ function App() {
         <Partners />
         <Footer />
       </AnimationRevealPage>
+     
     </AnimatePresence>
     //Commit this
   );
